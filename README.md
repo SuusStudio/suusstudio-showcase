@@ -8,13 +8,31 @@ This repository is the public-facing map of that work: **30+ documented systems,
 
 > **Capability is public. The engine stays private.**
 
-## Explore the portfolio
+## 30-second review
+
+If you are evaluating SuusStudio™ for a project, collaboration or technical role, this repository demonstrates:
+
+- structured **prompt engineering**, not isolated one-off prompting
+- reusable **creative operating systems** and decision frameworks
+- **visual QA** for identity, realism, anatomy, lighting and scene consistency
+- creator **identity, provenance and usage-scope** concepts
+- practical **web, local-tool and workflow prototypes**
+- conservative maturity labels that separate public work, prototypes, research and private systems
+- a GitHub → Vercel production workflow with a live public portfolio
+
+## Start here
 
 ### → [Full Systems & Projects Catalogue](./PROJECTS.md)
-See the named systems, version numbers, purpose and maturity status across creative AI, identity/provenance, visual QA, automation, local tools, web systems and technical experiments.
+Named systems, version numbers, purpose and maturity status across creative AI, provenance, visual QA, automation, local tools, web systems and technical experiments.
+
+### → [Capability Matrix](./CAPABILITIES.md)
+A fast mapping from skills to representative systems and practical applications.
+
+### → [Portfolio Verification](./VERIFICATION.md)
+How public claims are classified, what was internally verified, and where the evidence boundary sits.
 
 ### → [Security & Disclosure Policy](./SECURITY.md)
-See what is intentionally kept out of this public repository.
+What is intentionally kept out of this public repository.
 
 ---
 
@@ -52,7 +70,7 @@ The complete catalogue includes additional systems, experiments, web work, local
 
 ## Technology
 
-`JavaScript` · `JSON` · `React` · `Vite` · `Node.js` · `Express` · `GitHub` · `Vercel`
+`JavaScript` · `JSON` · `React` · `Vite` · `Node.js` · `Express` · `Python` · `GitHub` · `Vercel`
 
 Additional work includes local web apps, structured data workflows, AI-assisted production tooling, QA systems and experimentation around creator provenance and visual consistency.
 
@@ -70,6 +88,12 @@ Additional work includes local web apps, structured data workflows, AI-assisted 
 
 🌐 **SuusStudio™:** https://suus-studio.vercel.app  
 🧠 **Framework:** https://suus-studio.vercel.app/framework
+
+## Verification status
+
+**Last public portfolio audit:** 10 August 2026
+
+The public showcase was checked for scope, privacy separation, claim wording and evidence boundaries. See [VERIFICATION.md](./VERIFICATION.md) for the audit standard.
 
 ## What this repository does not expose
 
