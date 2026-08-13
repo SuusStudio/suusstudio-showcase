@@ -1,45 +1,77 @@
 # SuusStudio™
 
-**AI Prompt Engineering · Creative Systems · Visual Quality · Web & Workflow Prototyping**
+**Creative Technologist · AI Prompt Engineer · Visual Quality Specialist · Web & Workflow Builder**
 
-SuusStudio™ develops AI-assisted creative systems by combining **Storytelling × Marketing × Systems** into structured, testable workflows.
+I build practical digital systems at the intersection of **AI, design, automation, web development and visual quality**. My work turns creative ideas into structured, testable products rather than isolated one-off outputs.
 
-This repository is the public-facing map of that work: **30+ documented systems, prototypes, frameworks, research tracks and technical projects** without publishing proprietary source code or protected internal logic.
+> **Storytelling × Marketing × Systems**
 
-> **Capability is public. The engine stays private.**
+This public repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
 
-## 30-second review
+## ⚡ 30-second recruiter scan
 
-If you are evaluating SuusStudio™ for a project, collaboration or technical role, this repository demonstrates:
+### SEO V20 · Production web app
+**Status:** PUBLIC · PRODUCTION · V0.4.0  
+🌐 https://seo-v20.vercel.app
 
-- structured **prompt engineering**, not isolated one-off prompting
-- reusable **creative operating systems** and decision frameworks
-- **visual QA** for identity, realism, anatomy, lighting and scene consistency
-- creator **identity, provenance and usage-scope** concepts
-- practical **web, local-tool and workflow prototypes**
-- conservative maturity labels that separate public work, prototypes, research and private systems
-- a GitHub → Vercel production workflow with a live public portfolio
+A live SEO scanning application built and deployed through GitHub → Vercel.
 
-## Start here
+What is implemented:
+- real POST-based website scanner
+- 10 SEO analysis categories
+- fail-closed scoring logic
+- private-network protection, including localhost rejection
+- public live-site scanning
+- PWA manifest and standalone mode
+- service worker with root scope
+- 192×192 and 512×512 app icons
+- zero external npm/build dependencies in the production build
+- production runtime verified without fatal errors during the release tests
 
-### → [Full Systems & Projects Catalogue](./PROJECTS.md)
-Named systems, version numbers, purpose and maturity status across creative AI, provenance, visual QA, automation, local tools, web systems and technical experiments.
+### SuusStudio™ Portfolio & Framework
+**Status:** PUBLIC · LIVE  
+🌐 https://suus-studio.vercel.app  
+🧠 https://suus-studio.vercel.app/framework
 
-### → [Capability Matrix](./CAPABILITIES.md)
-A fast mapping from skills to representative systems and practical applications.
+A public portfolio and systems hub covering AI-assisted creative workflows, visual QA, identity-aware generation, provenance concepts, web experiments and technical prototypes.
 
-### → [Portfolio Verification](./VERIFICATION.md)
-How public claims are classified, what was internally verified, and where the evidence boundary sits.
+### Visual Operating System V20
+**Status:** PRIVATE SYSTEM · ACTIVE BUILD
 
-### → [Security & Disclosure Policy](./SECURITY.md)
-What is intentionally kept out of this public repository.
+A structured creative operating system for scene design, identity consistency, story continuity, visual QA, physical realism and reusable generation logic. The implementation remains private while the architecture and capability are documented publicly.
+
+### SUUS™ Digital Nervous System
+**Status:** PRIVATE SYSTEM
+
+An internal operating-system concept connecting information, decisions, creative workflows, business processes and reusable task logic.
+
+### Local tools & automation
+Representative work includes:
+- **Local Image Generator V1**
+- **Free Video Engine V2.1 Recovery**
+- **Laptop Keeper V1.0D** with dry-run, protected packages, review queues and fail-closed safeguards
+- **Money Flow Operations System** for opportunity qualification and human-reviewed outreach workflows
+- **Minecraft Delft V10 Crossplay** with Geyser/Floodgate integration and custom world-building
 
 ---
+
+## What I build
+
+| Area | What I do |
+|---|---|
+| **AI & Prompt Engineering** | Structured prompt systems, reusable logic, locked inputs, evaluation criteria and consistency controls |
+| **Web Apps** | Interactive tools, responsive interfaces, scanners, dashboards and production deployments |
+| **Visual Quality** | Identity consistency, anatomy, physical realism, composition, lighting and scene-coherence QA |
+| **Creative Systems** | Repeatable operating systems that connect strategy, storytelling, production and review |
+| **Automation** | Local and web workflows with logging, review gates and fail-safe behaviour |
+| **Identity & Provenance** | Consent-aware identity usage, traceability, usage scope and content-authenticity concepts |
+| **Deployment** | Versioned GitHub workflows and production delivery through Vercel |
 
 ## Featured systems
 
 | System | Area | Public maturity |
 |---|---|---|
+| **SEO V20 V0.4.0** | SEO / web application | PUBLIC / PRODUCTION |
 | **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Identity Usage Passport V1.0** | Creator identity / rights | PUBLIC / SHOWCASE |
@@ -53,61 +85,50 @@ What is intentionally kept out of this public repository.
 | **Free Video Engine V2.1 Recovery** | Local motion / video R&D | VERIFIED PROTOTYPE |
 | **Laptop Keeper V1.0D** | Local maintenance / protection | PRIVATE / FAIL-CLOSED |
 
-The complete catalogue includes additional systems, experiments, web work, local tools and world-building projects.
+## Explore the work
 
----
+### → [Full Systems & Projects Catalogue](./PROJECTS.md)
+Named systems, versions, purpose and maturity status across creative AI, provenance, visual QA, automation, local tooling, web systems and technical experiments.
 
-## What I build
+### → [Capability Matrix](./CAPABILITIES.md)
+A quick mapping from skills to representative systems and practical applications.
 
-- **AI creative operating systems** rather than isolated one-off prompts
-- **Prompt engineering frameworks** with locked inputs, reusable logic and evaluation
-- **Visual quality systems** for identity, anatomy, realism, composition and scene coherence
-- **Creator identity & provenance concepts** for consent, traceability and usage scope
-- **Web applications and interactive prototypes**
-- **Local tools and automation workflows** with safety and review gates
-- **Campaign systems** connecting storytelling, marketing and production
-- **GitHub → Vercel deployment workflows**
+### → [Portfolio Verification](./VERIFICATION.md)
+How public claims are classified, what was internally verified and where the evidence boundary sits.
+
+### → [Security & Disclosure Policy](./SECURITY.md)
+What is intentionally kept out of the public repository.
 
 ## Technology
 
-`JavaScript` · `JSON` · `React` · `Vite` · `Node.js` · `Express` · `Python` · `GitHub` · `Vercel`
+`JavaScript` · `JSON` · `React` · `Vite` · `Node.js` · `Express` · `Python` · `HTML` · `CSS` · `GitHub` · `Vercel`
 
-Additional work includes local web apps, structured data workflows, AI-assisted production tooling, QA systems and experimentation around creator provenance and visual consistency.
+## How I work
 
-## Build philosophy
+**Problem → Strategy → Structured inputs → Build → Test → QA → Evidence → Deploy → Review**
 
-1. **Story before tooling** — technology serves a defined creative or operational purpose.
-2. **Problem before promise** — systems start from the thing that needs to be solved.
-3. **Consistency before uncontrolled creativity** — inputs and context are deliberately locked where needed.
-4. **Proof before polish** — evidence and testing take priority over presentation claims.
-5. **Systems over one-offs** — reusable architecture compounds value.
-6. **Fail safely** — uncertain automation should stop or require review rather than silently cause damage.
-7. **Privacy by design** — private client data, credentials, identity assets and proprietary logic remain private.
+The goal is not to make technology look impressive. The goal is to make it **useful, repeatable, inspectable and safer to operate**.
 
-## Public portfolio
+## Build principles
+
+1. **Problem before promise** — build for a real need.
+2. **Systems over one-offs** — reusable architecture compounds value.
+3. **Proof before polish** — testing and evidence come before claims.
+4. **Consistency by design** — important context and inputs are deliberately controlled.
+5. **Fail safely** — uncertain automation stops or requires review instead of silently causing damage.
+6. **Privacy by design** — private identity assets, credentials, client data and proprietary logic stay private.
+
+## Public links
 
 🌐 **SuusStudio™:** https://suus-studio.vercel.app  
-🧠 **Framework:** https://suus-studio.vercel.app/framework
+🧠 **Framework:** https://suus-studio.vercel.app/framework  
+🔎 **SEO V20:** https://seo-v20.vercel.app
 
-## Verification status
+## Public portfolio status
 
-**Last public portfolio audit:** 10 August 2026
+**Updated:** 13 August 2026
 
-The public showcase was checked for scope, privacy separation, claim wording and evidence boundaries. See [VERIFICATION.md](./VERIFICATION.md) for the audit standard.
-
-## What this repository does not expose
-
-This showcase intentionally excludes:
-
-- API keys, secrets or credentials
-- private client assets or data
-- identity reference source material
-- confidential system prompts
-- proprietary orchestration logic
-- private commercial source code
-- internal sales and payment information
-
-The goal is to make the work **inspectable without making the intellectual property copyable**.
+This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
 ---
 
