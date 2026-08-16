@@ -6,10 +6,10 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 |---|---|---|
 | **Prompt engineering** | Structured prompts, reusable prompt logic, locked inputs and evaluation criteria rather than isolated text prompts | Master Image Generator, Travel Prompt Engine |
 | **Creative systems design** | Turning creative decision-making into repeatable architectures and workflows | SuusStudio™ Framework, Breakthrough Production Engine, Visual Operating System V20 |
-| **Web application development** | Building functional browser-based tools, UI, application logic and production-ready releases | SEO V20 V0.4.0, SuusStudio™ website |
-| **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 V0.4.0 |
+| **Web application development** | Building functional browser-based tools, UI, application logic and production-ready releases | SEO V20, SuusStudio™ website |
+| **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 |
 | **Security-aware web logic** | Protecting tooling against unsafe network targets and using conservative failure behaviour | SEO V20 private-network protection, Laptop Keeper fail-closed design |
-| **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 V0.4.0 |
+| **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 |
 | **Visual QA** | Reviewing identity consistency, physical realism, anatomy, lighting, composition and scene coherence | Physical Realism QA, Optical Illusion QA, Identity Drift Governor |
 | **Identity-aware workflows** | Consent, approved identity usage, consistency and controlled creative scope | Identity Engine Doctrine, Identity Usage Passport |
 | **Provenance concepts** | Asset origin, usage scope, traceability and authenticity-oriented workflows | PhotoTrace Passport, Proof 4 · C2PA Bridge |
@@ -19,21 +19,21 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **GitHub / deployment workflows** | Versioned project work and GitHub → Vercel production deployment | SEO V20, SuusStudio™ website and system workflows |
 | **Technical experimentation** | Testing ideas, preserving failed experiments and using findings to improve later versions | Wallpaper Parallax MAX, Reality-Bend research |
 
-## Production proof
+## Implementation proof
 
-### SEO V20 V0.4.0
-**Live:** https://seo-v20.vercel.app
+### SEO V20
+**Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
 
-Public production application with:
-- real POST-based scanning
-- 10 SEO analysis categories
-- fail-closed scoring
-- localhost/private-network rejection
-- public live-site scanning
-- PWA manifest and standalone mode
-- service worker
-- production app icons
-- GitHub → Vercel deployment
+Internally developed SEO application with implemented capabilities including:
+- POST-based website scanning
+- multi-category SEO analysis
+- conservative / fail-closed scoring logic
+- private-network and localhost protection
+- reporting-oriented output
+- PWA implementation work
+- production deployment experience
+
+The SEO engine is not offered as a free public tool. Customer access is intended to be isolated behind its own SEO payment, account and entitlement flow.
 
 ### SuusStudio™
 **Live:** https://suus-studio.vercel.app
@@ -67,4 +67,6 @@ These capabilities can be applied to:
 
 This matrix describes capability, not unrestricted access to proprietary implementation. Private source code, client data, identity source material, credentials and protected orchestration logic are not part of the public showcase.
 
-**Updated:** 13 August 2026
+Commercial engines are separated from public portfolio content and require their own authorized customer access.
+
+**Updated:** 17 August 2026
