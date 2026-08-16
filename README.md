@@ -10,23 +10,20 @@ This public repository is a recruiter- and client-safe overview of **30+ systems
 
 ## ⚡ 30-second recruiter scan
 
-### SEO V20 · Production web app
-**Status:** PUBLIC · PRODUCTION · V0.4.0  
-🌐 https://seo-v20.vercel.app
+### SEO V20 · Private commercial SEO engine
+**Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
 
-A live SEO scanning application built and deployed through GitHub → Vercel.
+A SuusStudio™ SEO analysis system developed as a commercial product. Its implementation and customer-facing engine are intentionally not exposed through this public showcase.
 
-What is implemented:
-- real POST-based website scanner
-- 10 SEO analysis categories
-- fail-closed scoring logic
-- private-network protection, including localhost rejection
-- public live-site scanning
-- PWA manifest and standalone mode
-- service worker with root scope
-- 192×192 and 512×512 app icons
-- zero external npm/build dependencies in the production build
-- production runtime verified without fatal errors during the release tests
+Public-safe capability summary:
+- website SEO analysis
+- multi-category technical checks
+- conservative scoring and fail-closed behaviour
+- network-safety protections
+- reporting-oriented output
+- production deployment experience
+
+Access is separated from Website Launch and is intended for authorized SEO customers only after payment and account activation.
 
 ### SuusStudio™ Portfolio & Framework
 **Status:** PUBLIC · LIVE  
@@ -71,7 +68,7 @@ Representative work includes:
 
 | System | Area | Public maturity |
 |---|---|---|
-| **SEO V20 V0.4.0** | SEO / web application | PUBLIC / PRODUCTION |
+| **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
 | **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Identity Usage Passport V1.0** | Creator identity / rights | PUBLIC / SHOWCASE |
@@ -121,14 +118,15 @@ The goal is not to make technology look impressive. The goal is to make it **use
 ## Public links
 
 🌐 **SuusStudio™:** https://suus-studio.vercel.app  
-🧠 **Framework:** https://suus-studio.vercel.app/framework  
-🔎 **SEO V20:** https://seo-v20.vercel.app
+🧠 **Framework:** https://suus-studio.vercel.app/framework
 
 ## Public portfolio status
 
-**Updated:** 13 August 2026
+**Updated:** 17 August 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
+
+Commercial engines, including SEO V20 and Website Launch builder technology, are not exposed as free public tools through this showcase.
 
 ---
 
