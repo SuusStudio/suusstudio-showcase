@@ -124,6 +124,32 @@ An early parallax wallpaper experiment. The V1 approach did not meet the intende
 
 # Apps, automation & operational systems
 
+## SUUSSTUDIO™ DARKWEB INTELLIGENCE LAYER V2.0
+**Status:** PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE
+
+A trust, permission and evidence layer for AI-assisted workflows.
+
+In plain language, the system behaves like three things at once:
+
+- a **digital doorman** that checks whether an action is allowed before it happens
+- a **fact-checker** that separates supported claims from unproven ones
+- a **receipt book** that records important actions so they can be checked later
+
+If required permission, evidence or authority is missing, the workflow is designed to stop rather than guess. Protected evidence can be held in a locked retention window so records cannot be casually changed while that protection is active.
+
+The implementation has been extensively tested locally and is prepared for real managed trust infrastructure, but the public portfolio does **not** claim that the external production trust plane is already deployed or security-certified.
+
+Public-safe capability summary:
+- permission-aware AI workflows
+- proof-before-publish checks
+- fail-closed behaviour
+- tamper-evident audit and proof records
+- replay and stale-authority protection
+- deployment and attestation guardrails
+- privacy-aware handling of protected project material
+
+**Kept private:** source code, security keys, detailed permission rules, infrastructure topology, endpoints, credentials, client information and protected implementation logic.
+
 ## SUUS™ Digital Nervous System
 **Status:** PRIVATE SYSTEM
 
