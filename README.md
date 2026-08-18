@@ -17,6 +17,10 @@ A governed multi-agent creative runtime. In simple terms: instead of asking one 
 
 A controlled internal motion run demonstrated **block → targeted revision → PASS**, reaching a weighted QA score of **9.19** after one revision cycle. Private orchestration logic and source code remain protected.
 
+![SuusStudio Creator Intelligence Network V2.0 public-safe system map](./assets/creator-intelligence-network-system-map.svg)
+
+*Public-safe architecture view: capability and verified proof points are visible; protected implementation details remain private.*
+
 ### SEO V20 · Private commercial SEO engine
 **Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
 
