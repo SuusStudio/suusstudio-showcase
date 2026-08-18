@@ -9,6 +9,8 @@ The catalogue intentionally describes **what was built, why it exists, and its m
 - **PUBLIC** — public-facing page, demo or showcase is available.
 - **VERIFIED PROTOTYPE** — a working prototype has been built and tested in its intended technical scope.
 - **BUILT PROTOTYPE** — implementation exists, but it is not presented as production infrastructure.
+- **VERIFIED DATASET / EVALUATION ASSET** — a structured data or evaluation asset was built and checked in its documented scope.
+- **LIVE-READY / NOT LIVE-EXECUTED** — an external-provider adapter exists and was tested without claiming a paid live generation.
 - **PRIVATE SYSTEM** — actively developed or used internally; implementation remains private.
 - **TECHNICAL DEMO** — proves a specific technical or product concept.
 - **SPEC / RESEARCH** — architecture, rules, tests or design are documented, while implementation is partial or intentionally not public.
@@ -124,6 +126,23 @@ An early parallax wallpaper experiment. The V1 approach did not meet the intende
 
 # Apps, automation & operational systems
 
+## Creator Intelligence Network V2.0
+**Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
+
+A governed multi-agent creative runtime built to coordinate specialist roles without letting independent agents silently make up their own rules.
+
+In plain language, it can:
+- route a job to the roles that are actually needed
+- keep one shared execution state
+- run technical, visual and identity QA
+- block a weak result instead of calling it finished
+- repair the failed part without unnecessarily regenerating everything
+- record delivery and learning evidence
+
+A controlled internal motion dry run demonstrated the full loop: the first result was blocked on identity quality, one targeted revision was applied, and the next result reached a weighted QA score of **9.19** with a Production Pass.
+
+**Kept private:** orchestration source code, agent contracts, routing rules, protected memory and execution internals.
+
 ## SUUSSTUDIO™ DARKWEB INTELLIGENCE LAYER V2.0
 **Status:** PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE
 
@@ -165,6 +184,21 @@ A backend-oriented prompt-system prototype for structured prompt handling and re
 
 A larger visual operating system combining structured scene representation, story consistency, macro-world design, QA taxonomy and rendering-oriented workflow logic.
 
+## Creator Runtime Provider Adapter Layer
+**Status:** LIVE-READY / NOT LIVE-EXECUTED
+
+A provider boundary that keeps model execution below the Creator Runtime's governance and QA layers.
+
+Public-safe engineering behaviour:
+- deterministic mock execution remains available for safe testing
+- live execution is explicit opt-in
+- provider credentials do not enter Creator Run State
+- stale state can block execution
+- gateway idempotency reduces accidental duplicate requests
+- provider completion only means an artifact was returned; it does not automatically issue PASS, delivery approval or a production certificate
+
+A real external-provider adapter was implemented and documented, but the validation record does **not** claim a paid live generation.
+
 ## Local Flow System 2026.1
 **Status:** PRIVATE SYSTEM
 
@@ -198,6 +232,22 @@ An operational lead/opportunity workflow focused on finding, qualifying and foll
 ---
 
 # Fine-tuning & model workflow research
+
+## Creator Core V1
+**Status:** VERIFIED DATASET / EVALUATION ASSET
+
+A bilingual AI training and evaluation dataset designed for structured creative reasoning across **Storytelling × Marketing × Systems**.
+
+Validated public-safe structure:
+- **60 training examples**
+- **10 separate validation tests**
+- 20 Storytelling + 20 Marketing + 20 Systems examples
+- 30 Dutch + 30 English training examples
+- evaluation scorecard
+- JSONL format
+- duplicate-prompt and secret-key checks
+
+The dataset build was validated. This is deliberately **not** presented as proof that a paid model fine-tuning run was completed.
 
 ## Fine-Tuning Launcher V1
 **Status:** SPEC / BUILT WORKFLOW
