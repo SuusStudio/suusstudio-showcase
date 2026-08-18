@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">SuusStudio Creator Intelligence Network V2.0 system map</title>
+<desc id="desc">Public-safe diagram showing governed multi-agent routing, execution, QA, proof and verified engineering proof points.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07090d"/><stop offset="1" stop-color="#11131a"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".28"/></filter>
+  <style>
+    .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.title{font-size:46px;font-weight:800;fill:#f1eadf}.sub{font-size:22px;fill:#aeb3bd}.kicker{font-size:17px;font-weight:700;letter-spacing:2px;fill:#c89d58}.section{font-size:24px;font-weight:800;fill:#a66cff}.boxTitle{font-size:17px;font-weight:800}.body{font-size:15px;fill:#ebe5db}.muted{font-size:14px;fill:#aeb3bd}.metric{font-size:28px;font-weight:800}.small{font-size:12px;fill:#aeb3bd}.footer{font-size:14px;fill:#9ba1ac}.pill{font-size:13px;font-weight:800;letter-spacing:.5px}
+  </style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect x="34" y="34" width="1532" height="832" rx="28" fill="none" stroke="#30343c"/>
+<text x="68" y="92" class="sans title">SUUSSTUDIO™</text>
+<text x="68" y="125" class="sans kicker">CREATOR INTELLIGENCE NETWORK V2.0</text>
+<text x="590" y="88" class="sans" font-size="34" font-weight="800" fill="#f1eadf">GOVERNED AI. PROOF OVER PROMISES.</text>
+<text x="590" y="122" class="sans sub">Multi-agent runtime with governance, QA and verifiable proof.</text>
+<rect x="1308" y="56" width="220" height="74" rx="14" fill="#151421" stroke="#8d65ef"/>
+<text x="1335" y="84" class="sans pill" fill="#73cde6">PRIVATE SYSTEM</text>
+<text x="1335" y="110" class="sans" font-size="13" font-weight="700" fill="#f1eadf">VALIDATED PROTOTYPE</text>
+<text x="68" y="184" class="sans section">SYSTEM MAP · SIMPLE VIEW</text>
+<g filter="url(#shadow)">
+<rect x="60" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#69bce8"/>
+<rect x="310" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#c89d58"/>
+<rect x="560" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#78ca77"/>
+<rect x="810" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#69bce8"/>
+<rect x="1060" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#a66cff"/>
+<rect x="1310" y="215" width="220" height="220" rx="18" fill="#141820" stroke="#78ca77"/>
+</g>
+<text x="82" y="252" class="sans boxTitle" fill="#69bce8">1. USER / REQUEST</text>
+<text x="82" y="292" class="sans body"><tspan x="82">A request enters the system.</tspan><tspan x="82" dy="27">Intent and required context</tspan><tspan x="82" dy="27">are captured.</tspan></text>
+<text x="332" y="252" class="sans boxTitle" fill="#c89d58">2. GOVERNANCE</text>
+<text x="332" y="292" class="sans body"><tspan x="332">Permissions, evidence and</tspan><tspan x="332" dy="27">rules are checked first.</tspan><tspan x="332" dy="27">No authority? STOP.</tspan></text>
+<text x="582" y="252" class="sans boxTitle" fill="#78ca77">3. MULTI-AGENT ROUTING</text>
+<text x="582" y="292" class="sans body"><tspan x="582">The system selects the</tspan><tspan x="582" dy="27">right specialist role(s)</tspan><tspan x="582" dy="27">for the job.</tspan></text>
+<text x="832" y="252" class="sans boxTitle" fill="#69bce8">4. EXECUTION</text>
+<text x="832" y="292" class="sans body"><tspan x="832">Agents perform the task</tspan><tspan x="832" dy="27">with approved tools and</tspan><tspan x="832" dy="27">shared run context.</tspan></text>
+<text x="1082" y="252" class="sans boxTitle" fill="#a66cff">5. QA &amp; REPAIR</text>
+<text x="1082" y="292" class="sans body"><tspan x="1082">Quality is scored.</tspan><tspan x="1082" dy="27">Weak results are blocked</tspan><tspan x="1082" dy="27">and repaired selectively.</tspan></text>
+<text x="1332" y="252" class="sans boxTitle" fill="#78ca77">6. PROOF &amp; DELIVERY</text>
+<text x="1332" y="292" class="sans body"><tspan x="1332">Only approved results</tspan><tspan x="1332" dy="27">move forward with a</tspan><tspan x="1332" dy="27">verifiable record.</tspan></text>
+<g fill="none" stroke="#eee7dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M285 325h18"/><path d="M298 317l10 8-10 8"/><path d="M535 325h18"/><path d="M548 317l10 8-10 8"/><path d="M785 325h18"/><path d="M798 317l10 8-10 8"/><path d="M1035 325h18"/><path d="M1048 317l10 8-10 8"/><path d="M1285 325h18"/><path d="M1298 317l10 8-10 8"/>
+</g>
+<path d="M1420 455 C1420 500 1175 500 1175 445" fill="none" stroke="#9b5cff" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="610" y="486" class="sans" font-size="16" font-weight="700" fill="#a66cff">If a gate fails → repair the failed part → re-test</text>
+<text x="68" y="545" class="sans section">MINI CASE · CONTROLLED INTERNAL MOTION RUN</text>
+<rect x="60" y="570" width="770" height="220" rx="20" fill="#11151b" stroke="#30343c"/>
+<rect x="85" y="600" width="210" height="160" rx="14" fill="#1b1417" stroke="#e45d68"/>
+<text x="108" y="632" class="sans boxTitle" fill="#e45d68">V1 · BLOCKED</text>
+<text x="108" y="672" class="sans" font-size="18" font-weight="800" fill="#f1eadf">Identity QA: 7.4 / 10</text>
+<text x="108" y="705" class="sans muted"><tspan x="108">Below the required</tspan><tspan x="108" dy="23">identity threshold.</tspan></text>
+<rect x="320" y="600" width="225" height="160" rx="14" fill="#1b1812" stroke="#c89d58"/>
+<text x="343" y="632" class="sans boxTitle" fill="#c89d58">TARGETED REPAIR</text>
+<text x="343" y="670" class="sans muted"><tspan x="343">Strengthen facial preservation</tspan><tspan x="343" dy="23">and protect hero motion.</tspan><tspan x="343" dy="28">One revision cycle.</tspan></text>
+<rect x="570" y="600" width="235" height="160" rx="14" fill="#121d16" stroke="#78ca77"/>
+<text x="593" y="632" class="sans boxTitle" fill="#78ca77">V2 · PASS</text>
+<text x="593" y="670" class="sans" font-size="18" font-weight="800" fill="#f1eadf">Weighted QA: 9.19</text>
+<text x="593" y="704" class="sans muted"><tspan x="593">Identity QA: 8.9</tspan><tspan x="593" dy="23">Motion QA: 9.2</tspan></text>
+<text x="875" y="545" class="sans section">ENGINEERING PROOF POINTS</text>
+<rect x="870" y="570" width="660" height="220" rx="20" fill="#11151b" stroke="#30343c"/>
+<g class="sans">
+<rect x="895" y="600" width="126" height="155" rx="13" fill="#151921" stroke="#69bce8"/>
+<text x="914" y="645" class="metric" fill="#69bce8">88/88</text><text x="914" y="680" class="small">latest packaged</text><text x="914" y="701" class="small">tests passed</text>
+<rect x="1033" y="600" width="126" height="155" rx="13" fill="#151921" stroke="#c89d58"/>
+<text x="1050" y="645" class="metric" fill="#c89d58">9.19</text><text x="1050" y="680" class="small">weighted governed</text><text x="1050" y="701" class="small">QA score</text>
+<rect x="1171" y="600" width="126" height="155" rx="13" fill="#151921" stroke="#69bce8"/>
+<text x="1187" y="645" class="metric" fill="#69bce8">60+10</text><text x="1187" y="680" class="small">training examples</text><text x="1187" y="701" class="small">+ validation tests</text>
+<rect x="1309" y="600" width="196" height="155" rx="13" fill="#151921" stroke="#a66cff"/>
+<text x="1328" y="636" class="sans" font-size="18" font-weight="800" fill="#a66cff">MULTI-AGENT + DWI</text><text x="1328" y="670" class="small">routing · shared state</text><text x="1328" y="691" class="small">provider boundary</text><text x="1328" y="712" class="small">permission + proof gates</text>
+</g>
+<rect x="60" y="814" width="1470" height="35" rx="10" fill="#12151b" stroke="#30343c"/>
+<text x="82" y="837" class="sans footer"><tspan fill="#c89d58" font-weight="800">STATUS:</tspan> DEPLOYMENT-READY PACKAGE VALIDATED · live external trust deployment pending · no security certification claimed</text>
+<text x="82" y="876" class="sans footer"><tspan fill="#c89d58" font-weight="800">RETENTION:</tspan> 30-day COMPLIANCE retention selected · applies after real WORM infrastructure is deployed and attested</text>
+<text x="1258" y="876" class="sans" font-size="16" font-weight="800" fill="#a66cff">PROOF BEATS PROMISES.</text>
+</svg>
