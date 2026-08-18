@@ -37,6 +37,15 @@ A public portfolio and systems hub covering AI-assisted creative workflows, visu
 
 A structured creative operating system for scene design, identity consistency, story continuity, visual QA, physical realism and reusable generation logic. The implementation remains private while the architecture and capability are documented publicly.
 
+### Darkweb Intelligence Layer V2.0
+**Status:** PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE
+
+A security and trust layer around AI workflows. In simple terms, it acts like a **digital doorman, fact-checker and receipt book**: it checks whether an action is allowed, whether an important claim has evidence, and whether critical steps leave a verifiable record.
+
+If permission or proof is missing, the system is designed to **stop instead of guessing**. Protected evidence can also be locked for a defined retention window so it cannot be casually changed during that period.
+
+The public showcase describes the capability only. Internal rules, security keys, infrastructure details, client data and protected source code remain private.
+
 ### SUUS™ Digital Nervous System
 **Status:** PRIVATE SYSTEM
 
@@ -71,6 +80,7 @@ Representative work includes:
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
 | **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
+| **Darkweb Intelligence Layer V2.0** | AI governance / trust / evidence | PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE |
 | **Identity Usage Passport V1.0** | Creator identity / rights | PUBLIC / SHOWCASE |
 | **PhotoTrace Passport V1.0** | Provenance | PRIVATE SYSTEM |
 | **Proof 4 · C2PA Bridge** | Content authenticity | TECHNICAL DEMO |
@@ -122,7 +132,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 17 August 2026
+**Updated:** 18 August 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
