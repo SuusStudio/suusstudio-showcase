@@ -10,6 +10,13 @@ This public repository is a recruiter- and client-safe overview of **30+ systems
 
 ## ⚡ 30-second recruiter scan
 
+### Creator Intelligence Network V2.0
+**Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
+
+A governed multi-agent creative runtime. In simple terms: instead of asking one AI to do everything, the system can route work to specialist roles, keep one shared run state, run quality gates, repair the part that failed and require evidence before delivery.
+
+A controlled internal motion run demonstrated **block → targeted revision → PASS**, reaching a weighted QA score of **9.19** after one revision cycle. Private orchestration logic and source code remain protected.
+
 ### SEO V20 · Private commercial SEO engine
 **Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
 
@@ -59,6 +66,15 @@ Representative work includes:
 - **Money Flow Operations System** for opportunity qualification and human-reviewed outreach workflows
 - **Minecraft Delft V10 Crossplay** with Geyser/Floodgate integration and custom world-building
 
+### Selected engineering proof
+Internally verified proof points include:
+- **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
+- **9.19** weighted QA score in a governed motion dry run after one targeted revision
+- **60** bilingual Creator Core training examples + **10** separate validation tests
+- a provider-adapter boundary that is live-ready while paid external generation remains explicit opt-in
+
+→ [See the public-safe Engineering Proof Points](./PROOF_POINTS.md)
+
 ---
 
 ## What I build
@@ -66,6 +82,8 @@ Representative work includes:
 | Area | What I do |
 |---|---|
 | **AI & Prompt Engineering** | Structured prompt systems, reusable logic, locked inputs, evaluation criteria and consistency controls |
+| **Multi-agent AI systems** | Governed routing, shared run state, specialist roles, QA gates, targeted revision and evidence-aware execution |
+| **AI evaluation & training data** | Structured JSONL datasets, validation sets, evaluation scorecards and data-quality checks |
 | **Web Apps** | Interactive tools, responsive interfaces, scanners, dashboards and production deployments |
 | **Visual Quality** | Identity consistency, anatomy, physical realism, composition, lighting and scene-coherence QA |
 | **Creative Systems** | Repeatable operating systems that connect strategy, storytelling, production and review |
@@ -77,10 +95,12 @@ Representative work includes:
 
 | System | Area | Public maturity |
 |---|---|---|
+| **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
 | **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Darkweb Intelligence Layer V2.0** | AI governance / trust / evidence | PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE |
+| **Creator Core V1** | AI training data / evaluation | VERIFIED DATASET / EVALUATION ASSET |
 | **Identity Usage Passport V1.0** | Creator identity / rights | PUBLIC / SHOWCASE |
 | **PhotoTrace Passport V1.0** | Provenance | PRIVATE SYSTEM |
 | **Proof 4 · C2PA Bridge** | Content authenticity | TECHNICAL DEMO |
@@ -93,6 +113,9 @@ Representative work includes:
 | **Laptop Keeper V1.0D** | Local maintenance / protection | PRIVATE / FAIL-CLOSED |
 
 ## Explore the work
+
+### → [Engineering Proof Points](./PROOF_POINTS.md)
+A fast technical proof layer covering governed multi-agent runtime work, AI training/evaluation data, provider-adapter engineering and tested trust controls.
 
 ### → [Full Systems & Projects Catalogue](./PROJECTS.md)
 Named systems, versions, purpose and maturity status across creative AI, provenance, visual QA, automation, local tooling, web systems and technical experiments.

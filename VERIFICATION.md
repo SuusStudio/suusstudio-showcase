@@ -1,6 +1,6 @@
 # SuusStudio™ Public Portfolio Verification
 
-**Audit date:** 10 August 2026  
+**Audit date:** 18 August 2026  
 **Scope:** `SuusStudio/suusstudio-showcase`
 
 This file explains how claims in this public showcase are handled and what the maturity labels mean. It exists to make the portfolio easier to evaluate without publishing proprietary implementation details.
@@ -39,8 +39,12 @@ The website demonstrates public-facing design, deployment and portfolio work con
 
 ## Internally verified implementation areas
 
-During the portfolio audit, private implementation evidence was confirmed for multiple named systems, including workflow or code records associated with:
+During the portfolio audit, private implementation or validation evidence was confirmed for multiple named systems, including workflow, code, dataset or test records associated with:
 
+- Creator Intelligence Network V2.0
+- Darkweb Intelligence Layer V2.0
+- Creator Core V1
+- Creator Runtime provider adapter layer
 - Breakthrough Production Engine
 - Free Video Engine
 - Identity Usage Passport
@@ -50,6 +54,17 @@ During the portfolio audit, private implementation evidence was confirmed for mu
 - Travel Prompt Engine
 
 These implementations remain private by design. Their presence is reflected in the catalogue without publishing protected source material.
+
+## Selected internal proof points
+
+The following numbers are included as **internal validation evidence**, not as public source-code claims:
+
+- the latest packaged DWI deployment-guardrail runtime completed **88 / 88** regression tests in its recorded validation run
+- a controlled Creator Intelligence Network motion dry run used a failed first QA result to trigger one targeted revision, then reached a weighted QA score of **9.19** and a Production Pass
+- Creator Core V1 contains **60 structured training examples + 10 separate validation tests**, with JSONL/data-quality checks
+- the external video-provider adapter boundary is documented as **live-ready, not live-executed** in its validation record; paid provider generation is not claimed from that test
+
+These proof points are summarized publicly in [Engineering Proof Points](./PROOF_POINTS.md). Detailed source code, private runtime state, security configuration and provider credentials are intentionally excluded.
 
 ## Privacy verification
 
@@ -61,6 +76,7 @@ The public showcase is intentionally presentation-only. It does not publish:
 - API keys, tokens or credentials
 - private client data
 - internal payment or sales information
+- protected agent contracts, routing policies or security topology
 
 The production repository remains separate from this public showcase.
 
@@ -73,6 +89,8 @@ SuusStudio™ uses conservative maturity wording:
 - A specification is not described as completed software.
 - A failed experiment remains labelled as a failed or experimental test.
 - Private systems are described at capability level rather than exposed at implementation level.
+- A provider adapter being live-ready does not mean a paid provider execution was completed.
+- Passing local security tests does not mean external production infrastructure is security-certified.
 
 This distinction is intentional. The goal is to make capability credible, not inflated.
 
