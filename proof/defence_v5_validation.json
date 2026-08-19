@@ -1,0 +1,52 @@
+{
+  "project": "SuusStudio Multi-Sensor Incident Pipeline",
+  "version": "5.0",
+  "status": "GO_FOR_CONTROLLED_EVALUATION",
+  "scope": "public-safe validation evidence only",
+  "validation": {
+    "release_checks": {
+      "passed": 20,
+      "total": 20
+    },
+    "deterministic_benchmark_incidents": 100,
+    "deterministic_replays": {
+      "passed": 25,
+      "total": 25,
+      "material_output_sha256": "abe3be43a4519966677d3875a84c2bfaabfab7c89c99af2759e5ec33d55105dd"
+    },
+    "release_archive_sha256": "11d578e5d735934940ad5bebdc0ea97962daa3263cc19c791dc8d06360cc0e09",
+    "tested_behaviours": [
+      "sensor_ablation",
+      "missing_camera",
+      "missing_thermal",
+      "missing_radar",
+      "spatial_conflict",
+      "object_class_conflict",
+      "cooperative_airspace_match",
+      "cooperative_airspace_no_match",
+      "cooperative_airspace_missing",
+      "false_positive_disposition",
+      "confirmed_unknown_disposition",
+      "inconclusive_disposition",
+      "hash_chained_audit",
+      "tamper_detection",
+      "provenance_traceability",
+      "human_review_preservation"
+    ]
+  },
+  "semantic_contract": {
+    "fusion_confidence": "confidence in a correlated evidence track; not probability of hostile intent",
+    "no_cooperative_airspace_match": "contextual evidence only; not proof of drone identity or hostile intent",
+    "human_review_required": true
+  },
+  "hard_boundaries": [
+    "NO_JAMMING",
+    "NO_RF_INTERFERENCE",
+    "NO_HACKING_OR_TAKEOVER",
+    "NO_TARGETING",
+    "NO_INTERCEPTION",
+    "NO_AUTONOMOUS_FORCE",
+    "NO_WEAPON_CONTROL",
+    "NO_PHYSICAL_NEUTRALISATION"
+  ]
+}
