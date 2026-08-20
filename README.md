@@ -10,6 +10,19 @@ This public repository is a recruiter- and client-safe overview of **30+ systems
 
 ## ⚡ 30-second recruiter scan
 
+### Defence Innovation · Multi-Sensor Incident Pipeline V5.0
+**Status:** VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY
+
+I built an evidence-first multi-sensor incident pipeline for aerial-object situational awareness. Camera, thermal, radar and cooperative-airspace context can be brought into one reviewable incident with transparent confidence, provenance, conflict handling, deterministic replay and mandatory human review.
+
+**Verified V5.0 proof:** 20/20 release validation checks · 100 deterministic benchmark incidents · 25/25 identical replays · hash-chained audit trail · false-positive reconstruction · fail-closed data-rights handling.
+
+![SuusStudio Multi-Sensor Incident Pipeline V5.0 public-safe dashboard](./assets/defence-v5-dashboard.jpg)
+
+The public case shows **what I built and what I proved** while keeping protected fusion implementation, datasets, configuration, credentials and operational sensor details private.
+
+→ [View the Defence Innovation V5.0 public-safe case study](./DEFENCE_INNOVATION_V5.md)
+
 ### Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
 
@@ -72,6 +85,8 @@ Representative work includes:
 
 ### Selected engineering proof
 Internally verified proof points include:
+- **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
+- **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
 - **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
 - **9.19** weighted QA score in a governed motion dry run after one targeted revision
 - **60** bilingual Creator Core training examples + **10** separate validation tests
@@ -86,6 +101,7 @@ Internally verified proof points include:
 | Area | What I do |
 |---|---|
 | **AI & Prompt Engineering** | Structured prompt systems, reusable logic, locked inputs, evaluation criteria and consistency controls |
+| **Multi-sensor evidence systems** | Observation normalization, evidence correlation, transparent confidence, provenance, conflicts, human review and auditability |
 | **Multi-agent AI systems** | Governed routing, shared run state, specialist roles, QA gates, targeted revision and evidence-aware execution |
 | **AI evaluation & training data** | Structured JSONL datasets, validation sets, evaluation scorecards and data-quality checks |
 | **Web Apps** | Interactive tools, responsive interfaces, scanners, dashboards and production deployments |
@@ -99,6 +115,7 @@ Internally verified proof points include:
 
 | System | Area | Public maturity |
 |---|---|---|
+| **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
 | **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
@@ -117,6 +134,9 @@ Internally verified proof points include:
 | **Laptop Keeper V1.0D** | Local maintenance / protection | PRIVATE / FAIL-CLOSED |
 
 ## Explore the work
+
+### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
+Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
 
 ### → [Engineering Proof Points](./PROOF_POINTS.md)
 A fast technical proof layer covering governed multi-agent runtime work, AI training/evaluation data, provider-adapter engineering and tested trust controls.
@@ -159,7 +179,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 18 August 2026
+**Updated:** 20 August 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
