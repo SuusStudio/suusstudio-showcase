@@ -1,61 +1,90 @@
 # SuusStudio™ Defence Innovation — Multi-Sensor Incident Pipeline V5.0
 
 **Status:** VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY  
-**Public scope:** architecture, validation evidence and safety boundaries only. The full implementation remains private.
+**Public scope:** capability, architecture, validation evidence, governance and safety boundaries. Protected implementation remains private.
 
-## What was built
+![SuusStudio Multi-Sensor Incident Pipeline V5.0 public-safe dashboard](./assets/defence-v5-dashboard.jpg)
 
-A multi-sensor incident pipeline for aerial-object situational awareness that focuses on **evidence quality, uncertainty, provenance and mandatory human review** rather than autonomous action.
+> **Evidence first. Human authority always.**
 
-The locked flow is:
+## What I built
+
+I built a **multi-sensor incident and evidence pipeline for aerial-object situational awareness**. It brings observations from different sensor contexts into one reviewable incident instead of treating every detection as an isolated alert.
+
+The system is designed around a simple question:
+
+**Can a human reviewer see what the system knows, what it does not know, why its confidence changed and where every conclusion came from?**
+
+The public-safe architecture is:
 
 **RAW OBSERVATIONS → NORMALIZE → CORRELATE → CONFIDENCE → PROVENANCE → ANOMALY ASSESSMENT → HUMAN REVIEW → HUMAN DISPOSITION → AUDIT**
 
-The prototype accepts synthetic camera, thermal, radar and cooperative-airspace context, links compatible observations to a single track and exposes the complete reasoning path behind the resulting incident.
+The prototype currently demonstrates camera, thermal, radar and cooperative-airspace context using controlled synthetic evidence. Compatible observations can be associated with one track while missing information and disagreements remain visible.
+
+### Public-safe capability summary
+
+I designed and built the prototype to provide:
+
+- multi-source observation normalization;
+- transparent evidence correlation into an incident track;
+- confidence with visible per-source contribution;
+- explicit penalties when material evidence is missing;
+- separate handling of spatial and object-class conflicts;
+- provenance from source evidence through final disposition;
+- cooperative-airspace context with distinct `MATCH`, `NO_MATCH` and `MISSING` states;
+- anomaly assessment without automatic hostile-intent claims;
+- mandatory human review;
+- complete false-positive recording;
+- deterministic incident replay;
+- timestamped, hash-chained audit history;
+- tamper-detection checks;
+- fail-closed data-rights handling;
+- machine-readable public validation evidence.
+
+This is intentionally **not another black-box object detector**. The engineering focus is the assurance layer around evidence, uncertainty and human decision authority.
 
 ## Why this is different
 
-The system is not presented as another object detector. Its purpose is to make the *evidence layer* inspectable.
-
-For every incident a reviewer can see:
+For every incident a reviewer can inspect:
 
 - which sensors contributed evidence;
-- each raw confidence value;
-- sensor weight and weighted contribution;
-- missing-sensor penalties;
-- conflict penalties;
-- cooperative-airspace context state;
-- source provenance;
+- raw confidence values;
+- weighted contribution to the fused assessment;
+- missing-evidence effects;
+- conflicting observations;
+- cooperative-airspace context;
+- evidence provenance;
 - anomaly flags;
-- uncertainty and system limitations;
+- uncertainty and limitations;
+- human review state;
 - final human disposition;
-- the complete audit history.
+- audit history.
 
 A core semantic rule is:
 
-> **NO_COOPERATIVE_AIRSPACE_MATCH does not mean “drone” and does not mean “hostile”.**
+> **`NO_COOPERATIVE_AIRSPACE_MATCH` does not mean “drone” and does not mean “hostile”.**
 
 It is contextual evidence only.
 
 ## V5.0 validation evidence
 
-The V5.0 MIND Validation Edition includes:
+The locked V5.0 MIND Validation Edition includes:
 
-- **20/20 release validation checks PASS**
-- **100 deterministic benchmark incidents**
-- **25/25 identical deterministic replays**
-- sensor-ablation tests
-- missing-camera / missing-thermal / missing-radar tests
-- spatial-conflict tests
-- object-class conflict tests
-- OpenSky-style **MATCH / NO_MATCH / MISSING** semantics
-- complete `FALSE_POSITIVE`, `CONFIRMED_UNKNOWN` and `INCONCLUSIVE` human-disposition flows
-- source-to-disposition provenance graph
-- hash-chained audit trail
-- tamper-detection tests
-- explicit confidence semantic contract
-- SBOM and SHA-256 manifests
-- fail-closed data-rights handling
+- **20/20 release validation checks PASS**;
+- **100 deterministic benchmark incidents**;
+- **25/25 identical deterministic replays**;
+- sensor-ablation tests;
+- missing-camera, missing-thermal and missing-radar tests;
+- spatial-conflict tests;
+- object-class conflict tests;
+- `MATCH / NO_MATCH / MISSING` cooperative-airspace semantics;
+- `FALSE_POSITIVE`, `CONFIRMED_UNKNOWN` and `INCONCLUSIVE` human-disposition flows;
+- source-to-disposition provenance graph;
+- hash-chained audit trail;
+- tamper-detection tests;
+- explicit confidence semantic contract;
+- SBOM and SHA-256 manifests;
+- fail-closed data-rights handling.
 
 The deterministic replay proof produced the same material output hash across all 25 replay runs:
 
@@ -64,6 +93,8 @@ The deterministic replay proof produced the same material output hash across all
 The immutable V5.0 release archive is separately fingerprinted with SHA-256:
 
 `11d578e5d735934940ad5bebdc0ea97962daa3263cc19c791dc8d06360cc0e09`
+
+→ [Machine-readable public validation record](./proof/defence_v5_validation.json)
 
 ## Example incident view
 
@@ -78,11 +109,11 @@ The immutable V5.0 release archive is separately fingerprinted with SHA-256:
 | Fusion confidence | ~0.80 |
 | Human status | REVIEW_REQUIRED |
 
-The operator can then open **“Why am I seeing this?”** to inspect the evidence trail, contribution ledger, missing evidence, conflicts and limitations.
+The operator can inspect **“Why am I seeing this?”** to review the evidence trail, contribution ledger, missing evidence, conflicts and limitations before making a disposition.
 
 ## Human authority
 
-The system cannot autonomously finalize operational intent. Human review remains mandatory.
+The prototype cannot autonomously finalize operational intent. **Human review remains mandatory.**
 
 Synthetic dispositions are limited to:
 
@@ -90,7 +121,25 @@ Synthetic dispositions are limited to:
 - `FALSE_POSITIVE`
 - `INCONCLUSIVE`
 
-A benign anomaly can therefore be closed as a false positive while preserving the complete evidence and audit record.
+A benign anomaly can therefore be closed as a false positive without deleting the evidence trail that led to the initial alert.
+
+## What I deliberately do not publish
+
+This repository is designed to prove capability without giving away protected implementation.
+
+The public showcase does **not** expose:
+
+- full engine source code;
+- proprietary fusion implementation;
+- protected configuration and calibration details;
+- third-party datasets;
+- operational sensor feeds;
+- credentials or access tokens;
+- sensitive adapter internals;
+- protected evaluation material;
+- infrastructure or security details that would weaken the system.
+
+Those remain controlled so an external reviewer can evaluate the system without turning the showcase into a source-code dump.
 
 ## Hard safety boundary
 
@@ -104,27 +153,31 @@ This prototype contains no capability for:
 - weapon control;
 - physical neutralisation.
 
-The controlled-evaluation objective is **better evidence and better human decisions**, not automated effects.
+The objective is **better evidence and better human decisions**, not automated effects.
 
-## Next validation step
+## External evaluation / paid pilot
 
-The proposed next step is deliberately narrow: connect one small approved historical dataset or authorised test feed through the same evidence pipeline and ask an external reviewer to try to break the model.
+The next proof boundary is deliberately narrow: connect **one approved historical dataset or authorised test feed** to the locked evidence pipeline and let an external reviewer challenge it.
 
-Evaluation questions include:
+A controlled evaluation can cover:
 
-1. Can every conclusion still be traced to source evidence?
-2. Does missing evidence reduce confidence?
-3. Are sensor disagreements immediately visible?
-4. Is confidence calibration understandable to an operator?
-5. Can a false positive be completely reconstructed later?
-6. Does the audit trail detect tampering?
-7. Is human authority preserved under every tested scenario?
+1. data-rights and provenance onboarding;
+2. source-to-observation traceability;
+3. baseline incident replay;
+4. missing-sensor degradation tests;
+5. conflicting-evidence tests;
+6. false-positive reconstruction;
+7. audit-tamper testing;
+8. operator comprehension scoring;
+9. reproducible external-evaluation report.
+
+The commercial goal is not to sell an unsupported detection claim. It is to deliver a **controlled, auditable technical evaluation** using approved data.
 
 ## Disclosure policy
 
 No third-party datasets, operational sensor feeds, credentials, protected source code, detailed security internals or effect capabilities are published in this showcase.
 
-The public repository proves the engineering approach. The evaluation package and implementation remain controlled.
+The public repository demonstrates **what was built, what was tested, what the system refuses to claim and how an external evaluation can be performed**. The implementation and controlled evaluation package remain private.
 
 ---
 
