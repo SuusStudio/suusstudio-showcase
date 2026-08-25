@@ -23,6 +23,14 @@ The public case shows **what I built and what I proved** while keeping protected
 
 → [View the Defence Innovation V5.0 public-safe case study](./DEFENCE_INNOVATION_V5.md)
 
+### Incident Intelligence Assurance Layer
+**Status:** PUBLIC DEMONSTRATOR · CONTROLLED-EVALUATION READY · PAID PILOT €15K–€18K
+
+A vendor-neutral evidence and human-review layer that turns independent observations into one explainable, replayable incident picture.
+
+**Live demonstrator:** https://incident-intelligence-assurance-layer.suusstudio.chatgpt.site  
+→ [View the public-safe Incident Intelligence Assurance Layer case study](./INCIDENT_INTELLIGENCE_ASSURANCE_LAYER.md)
+
 ### Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
 
@@ -138,6 +146,9 @@ Internally verified proof points include:
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
 
+### → [Incident Intelligence Assurance Layer](./INCIDENT_INTELLIGENCE_ASSURANCE_LAYER.md)
+Public-safe case study for the vendor-neutral assurance layer, simulated multi-sensor evidence, decision trace, replayable QA and paid pilot route.
+
 ### → [Engineering Proof Points](./PROOF_POINTS.md)
 A fast technical proof layer covering governed multi-agent runtime work, AI training/evaluation data, provider-adapter engineering and tested trust controls.
 
@@ -175,11 +186,12 @@ The goal is not to make technology look impressive. The goal is to make it **use
 ## Public links
 
 🌐 **SuusStudio™:** https://suus-studio.vercel.app  
+🛰️ **Live assurance demonstrator:** https://incident-intelligence-assurance-layer.suusstudio.chatgpt.site  
 🧠 **Framework:** https://suus-studio.vercel.app/framework
 
 ## Public portfolio status
 
-**Updated:** 20 August 2026
+**Updated:** 25 August 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
