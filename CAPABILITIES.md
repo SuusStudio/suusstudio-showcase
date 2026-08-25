@@ -13,6 +13,7 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 |
 | **Security-aware web logic** | Protecting tooling against unsafe network targets and using conservative failure behaviour | SEO V20 private-network protection, Laptop Keeper fail-closed design |
 | **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0 |
+| **Incident assurance & sensor evidence** | Normalising independent observations, correlation, confidence breakdown, provenance, conflict handling, human review and replayable QA | Incident Intelligence Assurance Layer V1.0 |
 | **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 |
 | **Visual QA** | Reviewing identity consistency, physical realism, anatomy, lighting, composition and scene coherence | Physical Realism QA, Optical Illusion QA, Identity Drift Governor |
 | **Identity-aware workflows** | Consent, approved identity usage, consistency and controlled creative scope | Identity Engine Doctrine, Identity Usage Passport |
@@ -24,6 +25,14 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **Technical experimentation** | Testing ideas, preserving failed experiments and using findings to improve later versions | Wallpaper Parallax MAX, Reality-Bend research |
 
 ## Implementation proof
+
+### Incident Intelligence Assurance Layer V1.0
+
+**Status:** PUBLIC DEMONSTRATOR · CONTROLLED-EVALUATION READY  
+**Live demonstrator:** https://incident-intelligence-assurance-layer.suusstudio.chatgpt.site  
+**Commercial pilot route:** Fixed-scope integration readiness pilot · **€15K–€18K**
+
+Demonstrates vendor-neutral observation normalisation, incident correlation, confidence and provenance views, conflict/missingness handling, mandatory human review, decision trace, JSON evidence export and deterministic replay. The public build uses simulation data and is deliberately limited to detection support and human decision support.
 
 ### Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
@@ -87,4 +96,4 @@ This matrix describes capability, not unrestricted access to proprietary impleme
 
 Commercial engines are separated from public portfolio content and require their own authorized customer access.
 
-**Updated:** 18 August 2026
+**Updated:** 25 August 2026
