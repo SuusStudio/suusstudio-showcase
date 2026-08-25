@@ -2,6 +2,7 @@
 
 **Status:** VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY  
 **Public scope:** capability, architecture, validation evidence, governance and safety boundaries. Protected implementation remains private.
+**Live demonstrator:** https://incident-intelligence-assurance-layer.suusstudio.chatgpt.site (simulation-only assurance interface)
 
 ![SuusStudio Multi-Sensor Incident Pipeline V5.0 public-safe dashboard](./assets/defence-v5-dashboard.jpg)
 
