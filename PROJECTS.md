@@ -18,6 +18,20 @@ The catalogue intentionally describes **what was built, why it exists, and its m
 
 ---
 
+# Assurance, evidence & integration
+
+## Incident Intelligence Assurance Layer V1.0
+
+**Status:** PUBLIC DEMONSTRATOR · CONTROLLED-EVALUATION READY  
+**Commercial route:** Fixed-scope integration readiness pilot · **€15K–€18K**  
+**Live demonstrator:** https://incident-intelligence-assurance-layer.suusstudio.chatgpt.site
+
+A vendor-neutral software layer for turning independent observations into one explainable, reviewable incident picture. The public build demonstrates simulated radar, thermal, camera, OpenSky and operator context, with confidence breakdown, source provenance, decision trace, human review and JSON evidence export.
+
+**Safe claim boundary:** simulation and decision support only. No jamming, interception, targeting, autonomous force or physical neutralisation.
+
+→ [Open the public-safe case study](./INCIDENT_INTELLIGENCE_ASSURANCE_LAYER.md)
+
 # Core creative systems
 
 ## SuusStudio™ Framework V1.0
