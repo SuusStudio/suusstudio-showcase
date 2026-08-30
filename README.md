@@ -10,6 +10,20 @@ This public repository is a recruiter- and client-safe overview of **30+ systems
 
 ## ⚡ 30-second recruiter scan
 
+### Roblox Game Project
+**Status:** IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED
+
+An original interactive-world project built around exploration, progression, world design and repeatable game-system thinking. The project is shown publicly as active development, not as a released game.
+
+![SuusStudio Roblox The Signal world concept with Damien and Ryan](./assets/roblox-signal.jpg)
+
+### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
+**Status:** ACTIVE BUILD · COLLABORATIVE BUILD WITH DAMIEN + RYAN
+
+A shared Minecraft server and world-building project built with **Damien and Ryan**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
+
+![SuusStudio Minecraft HQ world build](./assets/minecraft-hq.jpg)
+
 ### Defence Innovation · Multi-Sensor Incident Pipeline V5.0
 **Status:** VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY
 
@@ -81,7 +95,7 @@ Representative work includes:
 - **Free Video Engine V2.1 Recovery**
 - **Laptop Keeper V1.0D** with dry-run, protected packages, review queues and fail-closed safeguards
 - **Money Flow Operations System** for opportunity qualification and human-reviewed outreach workflows
-- **Minecraft Delft V10 Crossplay** with Geyser/Floodgate integration and custom world-building
+- **Minecraft DelftV10 Crossplay** with Geyser/Floodgate integration and collaborative world-building with Damien and Ryan
 
 ### Selected engineering proof
 Internally verified proof points include:
@@ -101,6 +115,7 @@ Internally verified proof points include:
 | Area | What I do |
 |---|---|
 | **AI & Prompt Engineering** | Structured prompt systems, reusable logic, locked inputs, evaluation criteria and consistency controls |
+| **Interactive worlds** | Roblox game-world development, Minecraft world building, cross-platform server integration and event-style interactive storytelling |
 | **Multi-sensor evidence systems** | Observation normalization, evidence correlation, transparent confidence, provenance, conflicts, human review and auditability |
 | **Multi-agent AI systems** | Governed routing, shared run state, specialist roles, QA gates, targeted revision and evidence-aware execution |
 | **AI evaluation & training data** | Structured JSONL datasets, validation sets, evaluation scorecards and data-quality checks |
@@ -115,6 +130,8 @@ Internally verified proof points include:
 
 | System | Area | Public maturity |
 |---|---|---|
+| **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
+| **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
@@ -179,7 +196,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 20 August 2026
+**Updated:** 31 August 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
