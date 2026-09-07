@@ -1,6 +1,6 @@
 # SuusStudio™
 
-**Creative Technologist · AI Prompt Engineer · Visual Quality Specialist · Web & Workflow Builder**
+**AI Agent Developer · Creative Technologist · Visual Quality Specialist · Web & Workflow Builder**
 
 I build practical digital systems at the intersection of **AI, design, automation, web development and visual quality**. My work turns creative ideas into structured, testable products rather than isolated one-off outputs.
 
@@ -9,6 +9,15 @@ I build practical digital systems at the intersection of **AI, design, automatio
 This public repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
 
 ## ⚡ 30-second recruiter scan
+
+### AI Agent Engineering · Governed Runtime Work
+**Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
+
+I design AI-agent software around explicit roles, tool boundaries, shared state, failure paths, evidence and human authority. The goal is not unrestricted autonomy. The goal is agent software that can stay inside scope, recover safely and show what happened.
+
+Verified public-safe proof includes a Decision Engine V0.7 release with **296/296 automated tests PASS**, exact review-context binding, signed operator decisions, hash-chained decision history and deterministic evidence export. The V0.7 decision layer contains **no production executor**.
+
+→ [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
 
 ### Roblox Game Project
 **Status:** IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED
@@ -68,7 +77,7 @@ Access is separated from Website Launch and is intended for authorized SEO custo
 🌐 https://suus-studio.vercel.app  
 🧠 https://suus-studio.vercel.app/framework
 
-A public portfolio and systems hub covering AI-assisted creative workflows, visual QA, identity-aware generation, provenance concepts, web experiments and technical prototypes.
+A public portfolio and systems hub covering AI-assisted creative workflows, governed agent engineering, visual QA, identity-aware generation, provenance concepts, web experiments and technical prototypes.
 
 ### Visual Operating System V20
 **Status:** PRIVATE SYSTEM · ACTIVE BUILD
@@ -99,6 +108,8 @@ Representative work includes:
 
 ### Selected engineering proof
 Internally verified proof points include:
+- **296 / 296** passing tests in Decision Engine V0.7 release qualification
+- exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
 - **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
@@ -114,6 +125,7 @@ Internally verified proof points include:
 
 | Area | What I do |
 |---|---|
+| **AI Agent Engineering** | Agent architecture, tool boundaries, shared state, failure/recovery paths, evidence, human approval and governed release logic |
 | **AI & Prompt Engineering** | Structured prompt systems, reusable logic, locked inputs, evaluation criteria and consistency controls |
 | **Interactive worlds** | Roblox game-world development, Minecraft world building, cross-platform server integration and event-style interactive storytelling |
 | **Multi-sensor evidence systems** | Observation normalization, evidence correlation, transparent confidence, provenance, conflicts, human review and auditability |
@@ -130,12 +142,13 @@ Internally verified proof points include:
 
 | System | Area | Public maturity |
 |---|---|---|
+| **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
-| **SuusStudio™ Framework V1.0** | Creative methodology | PUBLIC |
+| **SuusStudio™ Framework V1.0** | Creative methodology + governed Systems execution layer | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Darkweb Intelligence Layer V2.0** | AI governance / trust / evidence | PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE |
 | **Creator Core V1** | AI training data / evaluation | VERIFIED DATASET / EVALUATION ASSET |
@@ -152,11 +165,14 @@ Internally verified proof points include:
 
 ## Explore the work
 
+### → [AI Agent Engineering](./AI_AGENT_ENGINEERING.md)
+Public-safe architecture, tool-boundary, state, recovery, evidence and human-authority capability with verified proof boundaries.
+
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
 
 ### → [Engineering Proof Points](./PROOF_POINTS.md)
-A fast technical proof layer covering governed multi-agent runtime work, AI training/evaluation data, provider-adapter engineering and tested trust controls.
+A fast technical proof layer covering agent decision control, governed multi-agent runtime work, AI training/evaluation data, provider-adapter engineering and tested trust controls.
 
 ### → [Full Systems & Projects Catalogue](./PROJECTS.md)
 Named systems, versions, purpose and maturity status across creative AI, provenance, visual QA, automation, local tooling, web systems and technical experiments.
@@ -176,7 +192,7 @@ What is intentionally kept out of the public repository.
 
 ## How I work
 
-**Problem → Strategy → Structured inputs → Build → Test → QA → Evidence → Deploy → Review**
+**Problem → Strategy → Structured inputs → Contract / scope → Build → Test → QA → Evidence → Approval → Deploy / deliver → Review**
 
 The goal is not to make technology look impressive. The goal is to make it **useful, repeatable, inspectable and safer to operate**.
 
@@ -186,8 +202,9 @@ The goal is not to make technology look impressive. The goal is to make it **use
 2. **Systems over one-offs** — reusable architecture compounds value.
 3. **Proof before polish** — testing and evidence come before claims.
 4. **Consistency by design** — important context and inputs are deliberately controlled.
-5. **Fail safely** — uncertain automation stops or requires review instead of silently causing damage.
-6. **Privacy by design** — private identity assets, credentials, client data and proprietary logic stay private.
+5. **Authority stays explicit** — capability and autonomy do not silently expand permission or release rights.
+6. **Fail safely** — uncertain automation stops or requires review instead of silently causing damage.
+7. **Privacy by design** — private identity assets, credentials, client data and proprietary logic stay private.
 
 ## Public links
 
@@ -196,7 +213,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 31 August 2026
+**Updated:** 7 September 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
