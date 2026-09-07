@@ -2,9 +2,34 @@
 
 A fast, public-safe view of technical work that goes beyond visual output.
 
-This page explains **what was built and what was tested** without publishing private source code, internal prompts, credentials, client data or protected orchestration logic.
+This page explains **what was built and what was tested** without publishing private source code, internal prompts, credentials, client data, protected policy content or orchestration logic.
 
-## 1. Creator Intelligence Network V2.0
+## 1. AI Agent Engineering / Decision Control
+**Status:** VERIFIED INTERNAL PROOF · PUBLIC-SAFE SUMMARY
+
+SuusStudio™ treats agent software as a controlled system: explicit roles, tool boundaries, state, evidence, approvals and release decisions are engineered rather than assumed.
+
+### Decision Engine V0.7
+**Status:** RELEASE PASS · DECISION-ONLY CONTROL LAYER
+
+Verified release evidence includes:
+- **296 / 296 automated tests PASS**
+- deterministic review diffs over control-relevant truth
+- exact project revision / Decision Packet / review-diff binding
+- explicit operator identity and signing-key checks
+- signed approval and rejection decisions
+- append-only, hash-chained signed decision history
+- evidence export with deterministic digest
+- tamper and stale-context failure behaviour
+- operator/recovery drill with `external_execution_performed=false`
+
+A human decision is therefore not treated as a loose “yes”. It is bound to the exact review context that was approved.
+
+Important boundary: V0.7 contains **no production executor** and does not autonomously email, publish, deploy, pay, upload externally, call billable APIs or use production credentials.
+
+→ [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
+
+## 2. Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
 
 A governed multi-agent creative runtime. In simple language: instead of asking one AI to do everything, the system can route a job to specialist roles, keep one shared run state, run quality checks, repair only the part that failed, and record evidence before a result is approved.
@@ -20,7 +45,7 @@ Public-safe capabilities:
 
 **Internally verified example:** a controlled motion dry run blocked the first result on identity quality, applied one targeted revision, and then reached a weighted QA score of **9.19** with a Production Pass.
 
-## 2. Creator Core V1
+## 3. Creator Core V1
 **Status:** VERIFIED DATASET / EVALUATION ASSET
 
 A bilingual AI training and evaluation dataset for structured creative reasoning.
@@ -37,7 +62,7 @@ Public-safe proof points:
 
 The dataset build was validated, but building a dataset is **not** represented as the same thing as completing paid model fine-tuning.
 
-## 3. Provider Adapter Layer
+## 4. Provider Adapter Layer
 **Status:** LIVE-READY · NOT LIVE-EXECUTED
 
 A provider boundary that lets the Creator Runtime test safely with a deterministic mock provider while keeping a route open for authorized external video generation.
@@ -54,12 +79,12 @@ Safety behaviour includes:
 
 No paid live provider generation is claimed from the validation described here.
 
-## 4. Darkweb Intelligence Layer V2.0
+## 5. Darkweb Intelligence Layer V2.0
 **Status:** DEPLOYMENT-READY PACKAGE VALIDATED · LIVE EXTERNAL DEPLOYMENT PENDING
 
 A trust, permission and evidence layer around AI-assisted workflows.
 
-Public-safe proof point: the packaged runtime reached **88/88 passing regression tests** during its latest deployment-guardrail validation. That does **not** mean the external cloud trust plane is already deployed or security-certified.
+Public-safe proof point: the packaged runtime reached **88 / 88 passing regression tests** during its latest deployment-guardrail validation. That does **not** mean the external cloud trust plane is already deployed or security-certified.
 
 The core idea is deliberately simple:
 
@@ -73,8 +98,8 @@ If evidence, permission or authority is missing, the workflow is designed to sto
 
 Together, these projects show work across several levels of AI engineering:
 
-**creative direction → structured data → agent orchestration → provider integration → QA → governance → evidence**
+**architecture → permissions → state → tools → agent orchestration → QA → evidence → human authority → release readiness**
 
-The public repository shows the capability. The private engine, security material and client-sensitive implementation stay protected.
+The public repository shows capability and verified proof boundaries. The private engine, security material and client-sensitive implementation stay protected.
 
-See also: [Portfolio Verification](./VERIFICATION.md) · [Security & Disclosure Policy](./SECURITY.md)
+See also: [AI Agent Engineering](./AI_AGENT_ENGINEERING.md) · [Portfolio Verification](./VERIFICATION.md) · [Security & Disclosure Policy](./SECURITY.md)

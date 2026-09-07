@@ -4,15 +4,20 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 
 | Capability | What it means in practice | Representative work |
 |---|---|---|
-| **Prompt engineering** | Structured prompts, reusable prompt logic, locked inputs and evaluation criteria rather than isolated text prompts | Master Image Generator, Travel Prompt Engine |
+| **AI agent architecture** | Designing explicit roles, task ownership, handoffs, state boundaries and escalation paths before adding multi-agent complexity | Creator Intelligence Network V2.0, SuusStudio™ Framework |
+| **Tool & integration control** | Keeping tool use behind scoped permissions, stale-state checks, retries, idempotency and explicit execution boundaries | Provider adapter layer, Decision Engine control patterns |
 | **Multi-agent AI orchestration** | Routing work to specialist roles while keeping shared state, governance, QA gates and controlled revisions | Creator Intelligence Network V2.0 |
+| **State, memory & retrieval design** | Treating context as controlled state with relevance, provenance and invalidation rules rather than unlimited memory accumulation | SuusStudio™ governed runtime work |
+| **Reliability & recovery engineering** | Safe stop, deny, escalate, repair and recovery paths that preserve evidence and do not resurrect revoked authority | Decision Engine V0.7, DWI V2.0, Visual Operating System V20 |
+| **Human authority & approval design** | Binding consequential approvals to exact review context while keeping approval subordinate to permissions, QA and upstream denial gates | Decision Engine V0.7, governed release workflows |
+| **Prompt engineering** | Structured prompts, reusable prompt logic, locked inputs and evaluation criteria rather than isolated text prompts | Master Image Generator, Travel Prompt Engine |
 | **AI evaluation & training data** | Building structured datasets, validation sets, scorecards and quality checks for creative reasoning workflows | Creator Core V1 |
 | **Provider adapter engineering** | Keeping model/provider execution behind a controlled gateway so generation does not bypass state, QA or delivery rules | Creator Runtime provider adapter layer |
 | **Creative systems design** | Turning creative decision-making into repeatable architectures and workflows | SuusStudio™ Framework, Breakthrough Production Engine, Visual Operating System V20 |
 | **Web application development** | Building functional browser-based tools, UI, application logic and production-ready releases | SEO V20, SuusStudio™ website |
 | **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 |
 | **Security-aware web logic** | Protecting tooling against unsafe network targets and using conservative failure behaviour | SEO V20 private-network protection, Laptop Keeper fail-closed design |
-| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0 |
+| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0, Decision Engine V0.7 |
 | **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 |
 | **Visual QA** | Reviewing identity consistency, physical realism, anatomy, lighting, composition and scene coherence | Physical Realism QA, Optical Illusion QA, Identity Drift Governor |
 | **Identity-aware workflows** | Consent, approved identity usage, consistency and controlled creative scope | Identity Engine Doctrine, Identity Usage Passport |
@@ -24,6 +29,22 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **Technical experimentation** | Testing ideas, preserving failed experiments and using findings to improve later versions | Wallpaper Parallax MAX, Reality-Bend research |
 
 ## Implementation proof
+
+### AI Agent Engineering
+**Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
+
+The SuusStudio™ agent-engineering line covers architecture, tool boundaries, shared state, multi-agent coordination, reliability, evidence and human authority.
+
+Verified public-safe examples include:
+- Decision Engine V0.7: **296 / 296 automated tests PASS**
+- exact review-diff and approval-context binding
+- signed operator decisions and hash-chained decision history
+- evidence export with deterministic digest
+- no production executor in the V0.7 decision layer
+- Creator Intelligence Network V2.0 controlled motion run: **block → targeted revision → PASS**, weighted QA **9.19**
+- DWI V2.0 deployment-guardrail package: **88 / 88 tests PASS**
+
+→ [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
 
 ### Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
@@ -60,15 +81,18 @@ Public portfolio and framework environment used to present visual systems, proje
 
 SuusStudio™ work typically follows this sequence:
 
-**Problem → Strategy → Structured inputs → Build / prototype → Test → QA → Evidence → Deploy → Review**
+**Problem → Strategy → Structured inputs → Contract / scope → Build → Test → QA → Evidence → Approval → Deploy / deliver → Review**
 
-The emphasis is on systems that can be repeated, inspected and improved.
+The emphasis is on systems that can be repeated, inspected, governed and improved.
 
 ## Commercial relevance
 
 These capabilities can be applied to:
 
-- governed multi-agent AI workflows
+- AI agent architecture and governed workflows
+- multi-agent coordination
+- tool / API integration control
+- human-approval and release gates
 - AI evaluation and training-data preparation
 - production web tools and internal applications
 - AI-assisted campaign systems
@@ -83,8 +107,8 @@ These capabilities can be applied to:
 
 ## Boundaries
 
-This matrix describes capability, not unrestricted access to proprietary implementation. Private source code, client data, identity source material, credentials and protected orchestration logic are not part of the public showcase.
+This matrix describes capability, not unrestricted access to proprietary implementation. Private source code, client data, identity source material, credentials, protected policy content and orchestration logic are not part of the public showcase.
 
 Commercial engines are separated from public portfolio content and require their own authorized customer access.
 
-**Updated:** 18 August 2026
+**Updated:** 7 September 2026
