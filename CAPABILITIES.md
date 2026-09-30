@@ -7,6 +7,7 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **AI agent architecture** | Designing explicit roles, task ownership, handoffs, state boundaries and escalation paths before adding multi-agent complexity | Creator Intelligence Network V2.0, SuusStudio™ Framework |
 | **Tool & integration control** | Keeping tool use behind scoped permissions, stale-state checks, retries, idempotency and explicit execution boundaries | Provider adapter layer, Decision Engine control patterns |
 | **Multi-agent AI orchestration** | Routing work to specialist roles while keeping shared state, governance, QA gates and controlled revisions | Creator Intelligence Network V2.0 |
+| **Team-state intelligence** | Interpreting observable collaboration telemetry into confidence-scored state, risk-aware routing recommendations and decision gates without granting action authority | Team Emotion Machine V1.0 |
 | **State, memory & retrieval design** | Treating context as controlled state with relevance, provenance and invalidation rules rather than unlimited memory accumulation | SuusStudio™ governed runtime work |
 | **Reliability & recovery engineering** | Safe stop, deny, escalate, repair and recovery paths that preserve evidence and do not resurrect revoked authority | Decision Engine V0.7, DWI V2.0, Visual Operating System V20 |
 | **Human authority & approval design** | Binding consequential approvals to exact review context while keeping approval subordinate to permissions, QA and upstream denial gates | Decision Engine V0.7, governed release workflows |
@@ -42,6 +43,7 @@ Verified public-safe examples include:
 - evidence export with deterministic digest
 - no production executor in the V0.7 decision layer
 - Creator Intelligence Network V2.0 controlled motion run: **block → targeted revision → PASS**, weighted QA **9.19**
+- Team Emotion Machine V1.0: observer-only team-state interpretation with immutable observation binding and no release or permission authority
 - DWI V2.0 deployment-guardrail package: **88 / 88 tests PASS**
 
 → [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
@@ -91,6 +93,7 @@ These capabilities can be applied to:
 
 - AI agent architecture and governed workflows
 - multi-agent coordination
+- team-state intelligence and adaptive routing recommendations
 - tool / API integration control
 - human-approval and release gates
 - AI evaluation and training-data preparation
@@ -111,4 +114,4 @@ This matrix describes capability, not unrestricted access to proprietary impleme
 
 Commercial engines are separated from public portfolio content and require their own authorized customer access.
 
-**Updated:** 7 September 2026
+**Updated:** 30 September 2026
