@@ -47,6 +47,7 @@ SuusStudio™ multi-agent work therefore emphasizes:
 - independent QA roles
 - evidence-aware handoffs
 - human escalation for consequential decisions
+- observer-only team-state interpretation before routing changes are acted on
 
 ### 4. State, memory & retrieval
 
@@ -121,6 +122,19 @@ One controlled internal motion run demonstrated:
 
 The final weighted QA score reached **9.19** after one revision cycle.
 
+### Team Emotion Machine V1.0
+**Status:** INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY
+
+An observer-only Team State Intelligence component for ASTRA collaboration. It converts operational telemetry into a normalized state vector, confidence, risk handling, hysteresis, a recommended role/action and an immutable observation hash.
+
+The system models collaboration state, not real emotion. Its authority boundary is explicit:
+- no workflow ACTUAL_STATE mutation
+- no release authorization
+- no permission expansion
+- recommendations remain subordinate to evidence, validation and human/AEGIS authority
+
+This creates a controlled bridge between multi-agent coordination signals and the next governed decision without letting an inferred state silently become an action.
+
 ### Darkweb Intelligence Layer V2.0
 **Status:** DEPLOYMENT-READY PACKAGE VALIDATED · LIVE EXTERNAL DEPLOYMENT PENDING
 
@@ -132,7 +146,7 @@ This is not represented as an external security certification or as proof of a c
 
 These projects demonstrate engineering work across:
 
-**architecture → permissions → state → tools → multi-agent coordination → QA → evidence → human authority → release readiness**
+**architecture → permissions → state → tools → multi-agent coordination → team-state observation → QA → evidence → human authority → release readiness**
 
 They do not claim unrestricted autonomy.
 
