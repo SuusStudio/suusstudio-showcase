@@ -126,6 +126,20 @@ An early parallax wallpaper experiment. The V1 approach did not meet the intende
 
 # Apps, automation & operational systems
 
+## SuusStudio™ Content Intelligence OS V0.2
+**Status:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
+
+A governed Campaign Intelligence Workspace that connects Project Memory, multi-mission campaigns, Creative Decision Memory, least-privilege AgentRoutes, asset lineage and AEGIS verification while keeping final release authority human-controlled.
+
+Frozen release evidence includes **480/480 defined acceptance tests PASS**, clean-room re-verification, V0.1.1 regression PASS, schema v2 → v3 migration PASS, 2/2 missions released, 12 Decision Memory records, 10 persisted least-privilege AgentRoutes, 3 campaign assets, AEGIS PASS, audit-chain PASS and 0 Chromium page/console errors in the release verification scope. External execution and spend were FALSE.
+
+**Final V0.2 ZIP SHA-256:** `8153d2320d938c030fddbda9d55d8d9eb78599351caeee8c8dd799f6e7f2d8ee`
+
+**Claim boundary:** the implementation and frozen release package remain private. The hash is a release fingerprint, not third-party certification or proof of universal bug-freedom.
+
+→ [Read the public-safe V0.2 release case](./CONTENT_INTELLIGENCE_OS_V0_2.md)
+
+
 ## Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
 
