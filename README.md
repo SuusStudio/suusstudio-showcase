@@ -19,6 +19,13 @@ Verified public-safe proof includes a Decision Engine V0.7 release with **296/29
 
 → [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
 
+### Content Intelligence OS V0.2
+**Status:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
+
+A governed Campaign Intelligence Workspace that keeps Project Memory, multi-mission decisions, least-privilege agent routing, asset lineage and release evidence traceable across a campaign. The frozen V0.2 release passed **480/480 defined acceptance tests**, clean-room re-verification, AEGIS verification and audit-chain checks with **0 known release blockers** at freeze time. External execution and spend remained disabled for this release.
+
+→ [View the Content Intelligence OS V0.2 public-safe release case](./CONTENT_INTELLIGENCE_OS_V0_2.md)
+
 ### Roblox Game Project
 **Status:** IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED
 
@@ -117,6 +124,7 @@ Representative work includes:
 
 ### Selected engineering proof
 Internally verified proof points include:
+- **480 / 480** passing defined acceptance tests in the frozen Content Intelligence OS V0.2 release qualification
 - **296 / 296** passing tests in Decision Engine V0.7 release qualification
 - exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
@@ -153,6 +161,7 @@ Internally verified proof points include:
 | System | Area | Public maturity |
 |---|---|---|
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
+| **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |

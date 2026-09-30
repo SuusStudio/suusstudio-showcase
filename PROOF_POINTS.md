@@ -1,5 +1,32 @@
 # SuusStudio™ Engineering Proof Points
 
+## Content Intelligence OS V0.2 · Frozen Campaign Intelligence Release
+
+**Release state:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
+
+- 480 / 480 defined acceptance tests: PASS
+- exact final ZIP re-extracted and reverified in an empty clean-room
+- V0.1.1 regression: PASS
+- schema v2 → v3 migration: PASS
+- Project Memory: PASS
+- 2 / 2 multi-mission campaign missions: RELEASED
+- 12 Creative Decision Memory records
+- 10 persisted least-privilege AgentRoutes
+- 3 campaign assets with DERIVED_FROM + REVISION_OF lineage
+- AEGIS: PASS
+- audit-chain: PASS
+- Control Room: 7 implemented views
+- Chromium page/console errors in release verification: 0
+- external execution / spend: FALSE / FALSE
+- known release blockers at freeze time: 0
+
+**Frozen V0.2 ZIP SHA-256:** `8153d2320d938c030fddbda9d55d8d9eb78599351caeee8c8dd799f6e7f2d8ee`
+
+**Evidence boundary:** public documentation reports the internally verified release state while source code, the frozen ZIP and protected implementation remain private. The fingerprint identifies the frozen artifact but does not constitute independent third-party certification.
+
+→ [Full public-safe release case](./CONTENT_INTELLIGENCE_OS_V0_2.md)
+
+
 A fast, public-safe view of technical work that goes beyond visual output.
 
 This page explains **what was built and what was tested** without publishing private source code, internal prompts, credentials, client data, protected policy content or orchestration logic.
