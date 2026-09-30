@@ -57,6 +57,15 @@ A controlled internal motion run demonstrated **block → targeted revision → 
 
 *Public-safe architecture view: capability and verified proof points are visible; protected implementation details remain private.*
 
+### Team Emotion Machine V1.0
+**Status:** INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY
+
+An observer-only **Team State Intelligence** layer for ASTRA collaboration. It interprets operational signals such as disagreement, retry pressure, evidence coverage, scope drift, risk pressure and progress, then recommends a role, action and decision gate.
+
+It explicitly models **operational team state, not real emotion**. The layer cannot mutate the workflow's actual state, authorize release or expand permissions. Observations are confidence-scored, risk-aware and bound to an immutable observation hash.
+
+This adds a missing coordination layer between multi-agent telemetry and governed human/AEGIS decision control without turning a recommendation into authority.
+
 ### SEO V20 · Private commercial SEO engine
 **Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
 
@@ -114,6 +123,7 @@ Internally verified proof points include:
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
 - **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
 - **9.19** weighted QA score in a governed motion dry run after one targeted revision
+- Team Emotion Machine V1.0 observer boundary: operational state recommendation without ACTUAL_STATE mutation, release authority or permission expansion
 - **60** bilingual Creator Core training examples + **10** separate validation tests
 - a provider-adapter boundary that is live-ready while paid external generation remains explicit opt-in
 
@@ -147,6 +157,7 @@ Internally verified proof points include:
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
+| **Team Emotion Machine V1.0** | Team-state intelligence / routing / governance | INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
 | **SuusStudio™ Framework V1.0** | Creative methodology + governed Systems execution layer | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
@@ -213,7 +224,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 7 September 2026
+**Updated:** 30 September 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
