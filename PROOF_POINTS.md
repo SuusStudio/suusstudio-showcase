@@ -45,7 +45,22 @@ Public-safe capabilities:
 
 **Internally verified example:** a controlled motion dry run blocked the first result on identity quality, applied one targeted revision, and then reached a weighted QA score of **9.19** with a Production Pass.
 
-## 3. Creator Core V1
+## 3. Team Emotion Machine V1.0
+**Status:** INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY
+
+A governed observer layer for machine-readable team state inside ASTRA collaboration.
+
+Public-safe proof boundary:
+- operational telemetry is normalized before interpretation
+- state output includes confidence and risk handling
+- hysteresis reduces noisy state switching
+- the layer can recommend a role, action and decision gate
+- observations are bound to an immutable observation hash
+- it cannot mutate ACTUAL_STATE, authorize release or expand permissions
+
+The component therefore adds adaptive coordination without turning interpretation into authority. It models operational state only and does not claim real emotion.
+
+## 4. Creator Core V1
 **Status:** VERIFIED DATASET / EVALUATION ASSET
 
 A bilingual AI training and evaluation dataset for structured creative reasoning.
@@ -62,7 +77,7 @@ Public-safe proof points:
 
 The dataset build was validated, but building a dataset is **not** represented as the same thing as completing paid model fine-tuning.
 
-## 4. Provider Adapter Layer
+## 5. Provider Adapter Layer
 **Status:** LIVE-READY · NOT LIVE-EXECUTED
 
 A provider boundary that lets the Creator Runtime test safely with a deterministic mock provider while keeping a route open for authorized external video generation.
@@ -79,7 +94,7 @@ Safety behaviour includes:
 
 No paid live provider generation is claimed from the validation described here.
 
-## 5. Darkweb Intelligence Layer V2.0
+## 6. Darkweb Intelligence Layer V2.0
 **Status:** DEPLOYMENT-READY PACKAGE VALIDATED · LIVE EXTERNAL DEPLOYMENT PENDING
 
 A trust, permission and evidence layer around AI-assisted workflows.
@@ -98,7 +113,7 @@ If evidence, permission or authority is missing, the workflow is designed to sto
 
 Together, these projects show work across several levels of AI engineering:
 
-**architecture → permissions → state → tools → agent orchestration → QA → evidence → human authority → release readiness**
+**architecture → permissions → state → tools → agent orchestration → team-state observation → QA → evidence → human authority → release readiness**
 
 The public repository shows capability and verified proof boundaries. The private engine, security material and client-sensitive implementation stay protected.
 
