@@ -143,6 +143,25 @@ A controlled internal motion dry run demonstrated the full loop: the first resul
 
 **Kept private:** orchestration source code, agent contracts, routing rules, protected memory and execution internals.
 
+## Team Emotion Machine V1.0
+**Status:** INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY
+
+An observer-only Team State Intelligence layer that sits between ASTRA collaboration telemetry and governed workflow decisions.
+
+Public-safe behaviour:
+- normalizes operational signals such as disagreement, retries, evidence coverage, scope drift, risk pressure and progress
+- produces a state vector with confidence and risk handling
+- applies hysteresis to reduce noisy state switching
+- recommends a specialist role, next action and decision gate
+- binds each observation to an immutable observation hash
+- cannot mutate workflow ACTUAL_STATE
+- cannot authorize release
+- cannot expand permissions
+
+The name refers to machine-readable collaboration state. It does **not** claim that AI agents experience real emotions.
+
+**Kept private:** scoring thresholds, protected routing logic, internal telemetry details and implementation source.
+
 ## SUUSSTUDIO™ DARKWEB INTELLIGENCE LAYER V2.0
 **Status:** PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE
 
