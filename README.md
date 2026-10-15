@@ -19,6 +19,22 @@ Verified public-safe proof includes a Decision Engine V0.7 release with **296/29
 
 → [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
 
+### OfferGuard™ · Checkout Evidence & Buyer Clarity
+**Status:** PRIVATE VALIDATION CANDIDATE · RELEASE HOLD
+
+A checkout-evidence QA project focused on the gap between a displayed price and a **supported final-price claim**. It tests ambiguous fees, shipping-option choices and contradictory evidence, and is designed to withhold clearance when the facts do not support it.
+
+Synthetic regression work is underway in a private repository. **Independent browser validation, production release and buyer readiness are not claimed.**
+
+→ [View the OfferGuard™ public-safe case](./OFFERGUARD.md)
+
+### Governed Execution Runtime · V0.9 Candidate
+**Status:** DRAFT · INTERNAL TESTING · NOT PRODUCTION
+
+An AI-workflow control layer exploring permission checks, evidence-bound authorization, fail-closed provider boundaries, recovery and human-controlled release. Its current V0.9 candidate includes simulated external trust/provider behavior, not a live production executor.
+
+→ [View the Governed Execution Runtime public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
+
 ### Content Intelligence OS V0.2
 **Status:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
 
@@ -126,6 +142,8 @@ Representative work includes:
 Internally verified proof points include:
 - **480 / 480** passing defined acceptance tests in the frozen Content Intelligence OS V0.2 release qualification
 - **296 / 296** passing tests in Decision Engine V0.7 release qualification
+- **OfferGuard™:** synthetic checkout-evidence and shipping-conflict regression work; independent browser release gate remains open
+- **Governed Execution Runtime V0.9:** draft witness/freshness and recovery-validation work with simulated external services; production release remains on hold
 - exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
@@ -161,6 +179,8 @@ Internally verified proof points include:
 | System | Area | Public maturity |
 |---|---|---|
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
+| **OfferGuard™** | Checkout evidence / price transparency / adversarial QA | PRIVATE VALIDATION CANDIDATE · RELEASE HOLD |
+| **Governed Execution Runtime V0.9** | Agent permissions / evidence / recovery | DRAFT · SIMULATED SERVICES · NOT PRODUCTION |
 | **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
@@ -187,6 +207,12 @@ Internally verified proof points include:
 
 ### → [AI Agent Engineering](./AI_AGENT_ENGINEERING.md)
 Public-safe architecture, tool-boundary, state, recovery, evidence and human-authority capability with verified proof boundaries.
+
+### → [OfferGuard™](./OFFERGUARD.md)
+Buyer-price and shipping-evidence QA, contradictory-option handling and the distinction between synthetic tests and real-world checkout approval.
+
+### → [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
+Scoped tool execution, evidence-bound decisions, fail-closed recovery and V0.9 simulation-versus-production boundaries.
 
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
@@ -233,7 +259,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 30 September 2026
+**Updated:** 15 October 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
