@@ -73,7 +73,7 @@ These proof points are summarized publicly in [Engineering Proof Points](./PROOF
 ## October 2026 candidate claim boundaries
 
 - **OfferGuard™:** private synthetic regressions and draft repairs are **internal development evidence**, not a completed independent browser/merchant evaluation, certified price checker, released product or approved buyer transaction.
-- **Governed Execution Runtime V0.9:** private draft candidate with simulated external trust/provider behavior; no production executor, external attestation or independent operator signoff is claimed.
+- **Governed Execution Runtime V0.9–V1.1:** private V0.9 simulated trust/provider work is followed by V1.1 same-host process-testing in a newer draft. It is not independently administered external trust; no production executor, external attestation or independent operator signoff is claimed.
 - **Deployment previews and CI checks:** these can support build/readiness claims but do not independently prove user-facing behavioral correctness or permission to release.
 - **Access:** public readers can inspect these summaries, **not** the protected code or private execution evidence.
 
