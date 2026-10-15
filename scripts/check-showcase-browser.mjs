@@ -73,7 +73,12 @@ const probe = '(() => { const d = document.documentElement; const b = document.b
   'overflowPx:Math.max(0,Math.max(d.scrollWidth,b?.scrollWidth||0)-d.clientWidth), ' +
   'rootFound:!!document.querySelector("#root"),links:document.querySelectorAll("a[href]").length, ' +
   'canvases:document.querySelectorAll("canvas").length, ' +
-  'bodyTextChars:(b?.innerText||"").trim().length}; })()';
+  'bodyTextChars:(b?.innerText||"").trim().length, ' +
+  'overflowElements:[...document.querySelectorAll("*")].map(e=>{const r=e.getBoundingClientRect(); ' +
+  'return {tag:e.tagName,cls:String(e.className?.baseVal||e.className||"").slice(0,100), ' +
+  'right:Math.round(r.right),left:Math.round(r.left),width:Math.round(r.width)}; ' +
+  '}).filter(x=>x.right>d.clientWidth+4 || x.left< -4).sort((a,b)=>b.right-a.right).slice(0,16)] ' +
+  '}; })()';
 async function capture([name, path, width, height, mobile]) {
   const url = root + path;
   const h = await timeout(fetch(url, {redirect:'follow'}), 12000, 'HTTP request');
@@ -93,6 +98,7 @@ async function capture([name, path, width, height, mobile]) {
   if(png.length<1024) throw new Error('Screenshot empty');
   writeFileSync(join(out,name+'.png'),png);
   writeFileSync(join(out,name+'.json'),JSON.stringify({name,width,height,mobile,...metrics},null,2));
+  if (metrics.overflowPx > 4) console.error('BROWSER_OVERFLOW=FAIL case='+name+' px='+metrics.overflowPx);
   console.log('BROWSER_CAPTURE case='+name+' screenshot_bytes='+png.length+
     ' overflow_px='+metrics.overflowPx+' links='+metrics.links+' canvases='+metrics.canvases+
     ' title='+JSON.stringify(metrics.title));
@@ -102,7 +108,11 @@ let failed=false; const results=[];
 try {
   await start();
   for(const c of cases) {
-    try {results.push(await capture(c));}
+    try {
+      const result=await capture(c);
+      results.push(result);
+      if(result.overflowPx > 4) failed = true;
+    }
     catch(err) {
       failed=true;
       results.push({name:c[0],error:String(err.message||err)});
@@ -123,5 +133,5 @@ try {
   await pause(150);
   try {rmSync(profile,{recursive:true,force:true});}catch{}
 }
-console.log(failed?'BROWSER_CAPTURE=FAIL':'BROWSER_CAPTURE=PASS (human visual QA still HOLD)');
+console.log(failed?'BROWSER_CAPTURE=FAIL (layout or capture blocker)':'BROWSER_CAPTURE=PASS (human visual QA still HOLD)');
 if(failed) process.exitCode=1;
