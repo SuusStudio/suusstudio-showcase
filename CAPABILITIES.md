@@ -18,9 +18,9 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **Web application development** | Building functional browser-based tools, UI, application logic and production-ready releases | SEO V20, SuusStudio™ website |
 | **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 |
 | **Security-aware web logic** | Protecting tooling against unsafe network targets and using conservative failure behaviour | SEO V20 private-network protection, Laptop Keeper fail-closed design |
-| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0, Decision Engine V0.7, Governed Execution Runtime V1.1 draft |
+| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0, Decision Engine V0.7, Governed Execution Runtime V1.2 draft |
 | **Checkout evidence & adversarial QA** | Checking whether price, fee and option-selection claims are supported before presenting a final result | OfferGuard™ private validation candidate |
-| **Recovery & evidence freshness** | Distinguishing prior approvals, current proof and provider outcomes; withholding action when verification is incomplete | Governed Execution Runtime V1.1 draft |
+| **Recovery & evidence freshness** | Distinguishing prior approvals, current proof and provider outcomes; withholding action when verification is incomplete | Governed Execution Runtime V1.2 draft |
 | **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 |
 | **Visual QA** | Reviewing identity consistency, physical realism, anatomy, lighting, composition and scene coherence | Physical Realism QA, Optical Illusion QA, Identity Drift Governor |
 | **Identity-aware workflows** | Consent, approved identity usage, consistency and controlled creative scope | Identity Engine Doctrine, Identity Usage Passport |
@@ -36,7 +36,7 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 ### October 2026 candidates (not production releases)
 
 - **OfferGuard™:** private checkout-evidence tests and repair cycles; real-browser/merchant and independent release checks remain open. [Case](./OFFERGUARD.md)
-- **Governed Execution Runtime V1.1:** latest private draft adds same-host process testing; this is not an independent external trust service, and release remains on hold. [Case](./GOVERNED_EXECUTION_RUNTIME.md)
+- **Governed Execution Runtime V1.2:** latest private draft adds a read-only signed-evidence check with simulated operators; neither real operator independence nor release is established. [Case](./GOVERNED_EXECUTION_RUNTIME.md)
 
 ### AI Agent Engineering
 **Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
