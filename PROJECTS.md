@@ -135,12 +135,14 @@ Private synthetic regression and defect-repair work exists. Independent browser 
 
 → [Read the public-safe OfferGuard™ case](./OFFERGUARD.md)
 
-## Governed Execution Runtime V0.9
-**Status:** DRAFT CANDIDATE · INTERNAL TESTING · NOT PRODUCTION
+## Governed Execution Runtime V1.1 (V0.9–V1.1 research series)
+**Status:** PRIVATE DRAFT · ONE-HOST PROCESS TESTING · RELEASE HOLD
 
 An evidence-bound control layer for AI-assisted operations: scoped permissions, stale-state checks, fail-closed execution decisions, recovery visibility and explicit human authority.
 
-The V0.9 draft explores witness/freshness validation with simulated signing and provider status. Its test record supports internal candidate evaluation, not independent third-party assurance or production deployment.
+V0.9 tested freshness and simulated external provider status; V1.0 introduced local persistent high-water witness checks; V1.1 added a separately running local witness process and adversarial restart/rollback scenarios on **one CI host**. Local process separation does not establish independent operator control, a separately operated off-host authority or live provider behavior.
+
+The private draft remains unmerged and unapproved for production. No independent security certification, client effects or automated retry are claimed.
 
 → [Read the public-safe Governed Execution Runtime case](./GOVERNED_EXECUTION_RUNTIME.md)
 
