@@ -3,7 +3,7 @@
 **Status:** VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY  
 **Public scope:** capability, architecture, validation evidence, governance and safety boundaries. Protected implementation remains private.
 
-![SuusStudio Multi-Sensor Incident Pipeline V5.0 public-safe dashboard](./assets/defence-v5-dashboard.jpg)
+**Dashboard image temporarily withheld.** The archived JPEG has an internal structure defect despite its normal start/end bytes. A validated export and publication-rights confirmation are required before the visual can be presented as proof.
 
 > **Evidence first. Human authority always.**
 
