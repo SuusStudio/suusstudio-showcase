@@ -28,9 +28,13 @@ OfferGuard has implementation and regression work in a **private development rep
 
 Passing automated tests, a working deployment preview, and real-world buyer readiness are **different gates**.
 
-## Client value
+## Why a client would care
 
-This work shows a method for building **checkout transparency and evidence-QA tooling**: translate a consumer-risk scenario into testable rules, identify false confidence, preserve unresolved states and provide a structured review path. A commercial engagement would require a separate scoped pilot and independent validation.
+An incorrect or unsupported final-price claim can create confusing buyer journeys and expensive QA rework. OfferGuard™ demonstrates how to **surface uncertainty instead of hiding it behind a plausible total**.
+
+**Potential paid pilot, not a ready-made product:** agree on an authorized sandbox or supplied synthetic checkout scenario, define what constitutes supported price and option evidence, run a bounded QA assessment and deliver a findings report with explicit limitations. Real merchant/browser claims would require additional independent validation and permissions.
+
+**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). No production usage, customer deployment or guaranteed compliance outcome is offered on the strength of the current draft evidence.
 
 ## Protected material
 
