@@ -23,11 +23,13 @@ A private V0.9 candidate addresses witness and freshness checks around authoriza
 
 Earlier internal decision-layer tests and governance work are documented separately in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md). An earlier decision-only release passing its defined checks does not make this newer draft a production executor.
 
-## Practical application
+## Why a client would care
 
-Relevant to approval-driven AI workflows, tool-using assistants, human-in-the-loop operations and regulated or commercially sensitive systems where **stopping safely is a product requirement**.
+An AI workflow can be useful but still unsafe to deploy if it cannot distinguish permission, current evidence and an actual completed action. This project demonstrates how to design **visible stopping points, review authority and failure evidence** before expanding automation.
 
-A production engagement would need a defined use case, access and privacy review, independent test evidence, live integration trials and explicit go/no-go signoff.
+**Potential paid feasibility pilot, not a production executor:** define one bounded approval-driven workflow, identify what must be reviewed by a human, test expected and prohibited behaviors in a simulation, and deliver a documented findings/acceptance report. Any live integration would require its own security, privacy, operational and independent approval gates.
+
+**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private draft is not offered as a deployed service or independently certified control platform.
 
 ## Protected material
 
