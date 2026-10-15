@@ -79,6 +79,16 @@ These proof points are summarized publicly in [Engineering Proof Points](./PROOF
 
 Related: [OfferGuard™](./OFFERGUARD.md) · [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
 
+## Visual asset release gate · 15 October 2026
+
+**Asset integrity:** `assets/roblox-signal.jpg` in the public repository does not contain the normal JPEG end-of-image marker. It is **not treated as an approved public visual proof**. PR #11 deliberately stops embedding it in the README. The original file is preserved, unmodified, so a rights-cleared source can later be re-exported and checked without fabricating pixels.
+
+**Publication rights and privacy:** ownership, likeness/subject consent (especially for recognizable people or minors), licenses and provenance for all featured images must be confirmed by the responsible human before final publication. A file decoding successfully does not prove its publication rights. The Minecraft and Defence JPEGs have normal header/end markers in the earlier static checks, but **have not received a rights or visual-content signoff**.
+
+**Visual acceptance still required:** actual rendering, responsive/mobile display, keyboard accessibility and external links on the live website must be checked separately. Vercel's `READY` deployment label and passing Markdown link checks are not user-interface QA.
+
+**Release boundary:** markdown/documentation QA may PASS while image approval, external reviewer, mobile/browser QA and merge remain HOLD. Do not publish substitute artwork or identify private collaborators without affirmative permission.
+
 ## Privacy verification
 
 The public showcase is intentionally presentation-only. It does not publish:
