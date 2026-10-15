@@ -42,8 +42,10 @@ Synthetic regressions and repair work address checkout total evidence, shipping 
 
 → [Public-safe case](./OFFERGUARD.md)
 
-### Governed Execution Runtime V0.9
-**Status:** DRAFT CANDIDATE · SIMULATED EXTERNAL SERVICES
+### Governed Execution Runtime V0.9–V1.1 research timeline
+**Status:** PRIVATE DRAFTS · ONE-HOST TESTS · RELEASE HOLD
+
+The V0.9 draft remains a historical step. Later private draft work reached V1.1 with local process separation on one test host. This is not independently operated infrastructure, a live provider integration or an approved production release.
 
 Private candidate work addresses evidence-bound permission, freshness checks, provider status and recovery records. Draft tests are internal development evidence.
 
