@@ -111,6 +111,17 @@ Verified internal release evidence includes:
 
 Important boundary: V0.7 does **not** contain a production executor and does not autonomously email, publish, deploy, pay, upload externally, call billable APIs or use production credentials.
 
+### Governed Execution Runtime V0.9–V1.2 · October research series
+**Status:** DRAFT · INTERNAL TESTING · RELEASE HOLD
+
+A newer, private execution-governance candidate extends the research from decision-only control toward scoped provider outcomes and recovery evidence. It focuses on verified context, freshness, failure behavior and human authority.
+
+V0.9 used simulated external signing/provider services. V1.1 added local process testing on one host. The newer V1.2 draft evaluates a read-only, signed admission-evidence package with simulated role attestations. Cryptographic separation of test keys does not prove separately administered operators or an independent security audit. No version in this draft chain establishes live provider effects or production approval.
+
+→ [Read the public-safe runtime case](./GOVERNED_EXECUTION_RUNTIME.md)
+
+An adjacent application of evidence-first QA is [OfferGuard™](./OFFERGUARD.md), a separate private checkout-evidence candidate with its own open release gates.
+
 ### Creator Intelligence Network V2.0
 **Status:** VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION
 

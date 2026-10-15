@@ -1,14 +1,22 @@
 # SuusStudio™
 
-**AI Agent Developer · Creative Technologist · Visual Quality Specialist · Web & Workflow Builder**
+**Prompt Engineer · UX / AI Creative Systems Designer · Developer**
 
-I build practical digital systems at the intersection of **AI, design, automation, web development and visual quality**. My work turns creative ideas into structured, testable products rather than isolated one-off outputs.
+I design **AI workflows, digital experiences and quality-control systems** that turn scattered ideas into structured, testable work. The focus is clear business goals, human control and evidence you can review, not impressive-sounding automation without proof.
 
 > **Storytelling × Marketing × Systems**
 
-This public repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+## Start here
 
-## ⚡ 30-second recruiter scan
+**For clients:** Need a better web experience, a repeatable AI-assisted workflow, or stronger visual/technical QA? Bring **one real workflow problem**. I can help define a **scoped, paid project or feasibility pilot** with deliverables, acceptance criteria and a clear boundary between prototype and production. Projects are handled remotely with clear written communication.
+
+**For recruiters and collaborators:** Explore demonstrated strengths in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md), [Engineering Proof Points](./PROOF_POINTS.md) and the [Capability Matrix](./CAPABILITIES.md). Test counts are internal evidence for specific versions, not blanket production or external-certification claims.
+
+**Next step:** [Explore SuusStudio™ and its contact route](https://suus-studio.vercel.app). Describe the problem, desired outcome and constraints. Scope and compensation are agreed before implementation work; private code and protected methods are not part of the public showcase.
+
+This repository is a recruiter- and client-safe overview of **30+ documented systems, prototypes, frameworks and project tracks with distinct maturity levels**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+
+## ⚡ 30-second capability & proof scan
 
 ### AI Agent Engineering · Governed Runtime Work
 **Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
@@ -18,6 +26,24 @@ I design AI-agent software around explicit roles, tool boundaries, shared state,
 Verified public-safe proof includes a Decision Engine V0.7 release with **296/296 automated tests PASS**, exact review-context binding, signed operator decisions, hash-chained decision history and deterministic evidence export. The V0.7 decision layer contains **no production executor**.
 
 → [View the AI Agent Engineering public-safe case](./AI_AGENT_ENGINEERING.md)
+
+### OfferGuard™ · Checkout Evidence & Buyer Clarity
+**Status:** PRIVATE VALIDATION CANDIDATE · RELEASE HOLD
+
+A checkout-evidence QA project focused on the gap between a displayed price and a **supported final-price claim**. It tests ambiguous fees, shipping-option choices and contradictory evidence, and is designed to withhold clearance when the facts do not support it.
+
+Synthetic regression work is underway in a private repository. **Independent browser validation, production release and buyer readiness are not claimed.**
+
+→ [View the OfferGuard™ public-safe case](./OFFERGUARD.md)
+
+### Governed Execution Runtime · V1.2 Research Candidate
+**Status:** PRIVATE DRAFT · INTEGRATION TESTING · RELEASE HOLD
+
+An AI-workflow control layer for scope checks, evidence-bound authorization, recovery and human release authority. The research has progressed through V0.9 freshness verification, V1.0 persistent high-water checks and **V1.1 process-isolated witness testing on a single host**.
+
+The newer V1.2 draft adds a **read-only admission-evidence check** using simulated, separately labelled signed roles. Distinct signatures and claimed operators do **not** prove independently administered trust or a completed human security audit. No real provider integration or production release is claimed; the draft remains on HOLD.
+
+→ [View the Governed Execution Runtime public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
 
 ### Content Intelligence OS V0.2
 **Status:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
@@ -31,10 +57,10 @@ A governed Campaign Intelligence Workspace that keeps Project Memory, multi-miss
 
 An original interactive-world project built around exploration, progression, world design and repeatable game-system thinking. The project is shown publicly as active development, not as a released game.
 
-**Artwork withheld:** source image integrity and publication rights must be verified before displaying the Roblox concept.
+**World-build proof:** the project covers canonical scene geometry, camera routes, visual-system consistency and repeatable QA. Concept artwork is temporarily withheld from this public summary pending an intact source export and confirmation of publication rights.
 
 ### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
-**Status:** ACTIVE BUILD · COLLABORATIVE BUILD
+**Status:** ACTIVE BUILD · COLLABORATIVE PROJECT
 
 A shared Minecraft server and world-building project built with **collaborators**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
 
@@ -126,10 +152,12 @@ Representative work includes:
 Internally verified proof points include:
 - **480 / 480** passing defined acceptance tests in the frozen Content Intelligence OS V0.2 release qualification
 - **296 / 296** passing tests in Decision Engine V0.7 release qualification
+- **OfferGuard™:** synthetic checkout-evidence and shipping-conflict regression work; independent browser release gate remains open
+- **Governed Execution Runtime V1.2:** private signed-evidence research on simulated operator roles; independent real-world trust, provider use and security signoff remain open
 - exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
-- **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
+- **88 / 88** passing tests in a recorded DWI deployment-guardrail package validation
 - **9.19** weighted QA score in a governed motion dry run after one targeted revision
 - Team Emotion Machine V1.0 observer boundary: operational state recommendation without ACTUAL_STATE mutation, release authority or permission expansion
 - **60** bilingual Creator Core training examples + **10** separate validation tests
@@ -161,6 +189,8 @@ Internally verified proof points include:
 | System | Area | Public maturity |
 |---|---|---|
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
+| **OfferGuard™** | Checkout evidence / price transparency / adversarial QA | PRIVATE VALIDATION CANDIDATE · RELEASE HOLD |
+| **Governed Execution Runtime V1.2** | Agent permissions / evidence freshness / admission evidence | PRIVATE DRAFT · SIMULATED OPERATORS · RELEASE HOLD |
 | **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · COLLABORATIVE BUILD |
@@ -187,6 +217,12 @@ Internally verified proof points include:
 
 ### → [AI Agent Engineering](./AI_AGENT_ENGINEERING.md)
 Public-safe architecture, tool-boundary, state, recovery, evidence and human-authority capability with verified proof boundaries.
+
+### → [OfferGuard™](./OFFERGUARD.md)
+Buyer-price and shipping-evidence QA, contradictory-option handling and the distinction between synthetic tests and real-world checkout approval.
+
+### → [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
+Scoped tool execution, evidence-bound decisions and V0.9–V1.2 research boundaries. Signed role claims and same-host process tests are not independent operator proof.
 
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
@@ -233,7 +269,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 ## Public portfolio status
 
-**Updated:** 30 September 2026
+**Updated:** 15 October 2026
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
