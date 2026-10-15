@@ -1,14 +1,22 @@
 # SuusStudio™
 
-**AI Agent Developer · Creative Technologist · Visual Quality Specialist · Web & Workflow Builder**
+**Prompt Engineer · UX / AI Creative Systems Designer · Developer**
 
-I build practical digital systems at the intersection of **AI, design, automation, web development and visual quality**. My work turns creative ideas into structured, testable products rather than isolated one-off outputs.
+I design **AI workflows, digital experiences and quality-control systems** that turn scattered ideas into structured, testable work. The focus is clear business goals, human control and evidence you can review, not impressive-sounding automation without proof.
 
 > **Storytelling × Marketing × Systems**
 
-This public repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+## Start here
 
-## ⚡ 30-second recruiter scan
+**For clients:** Need a better web experience, a repeatable AI-assisted workflow, or stronger visual/technical QA? Bring **one real workflow problem**. I can help define a **scoped, paid project or feasibility pilot** with deliverables, acceptance criteria and a clear boundary between prototype and production. Projects are handled remotely with clear written communication.
+
+**For recruiters and collaborators:** Explore demonstrated strengths in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md), [Engineering Proof Points](./PROOF_POINTS.md) and the [Capability Matrix](./CAPABILITIES.md). Test counts are internal evidence for specific versions, not blanket production or external-certification claims.
+
+**Next step:** [Explore SuusStudio™ and its contact route](https://suus-studio.vercel.app). Describe the problem, desired outcome and constraints. Scope and compensation are agreed before implementation work; private code and protected methods are not part of the public showcase.
+
+This repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+
+## ⚡ 30-second capability & proof scan
 
 ### AI Agent Engineering · Governed Runtime Work
 **Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
