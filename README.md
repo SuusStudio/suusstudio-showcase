@@ -14,7 +14,7 @@ I design **AI workflows, digital experiences and quality-control systems** that 
 
 **Next step:** [Explore SuusStudio™ and its contact route](https://suus-studio.vercel.app). Describe the problem, desired outcome and constraints. Scope and compensation are agreed before implementation work; private code and protected methods are not part of the public showcase.
 
-This repository is a recruiter- and client-safe overview of **30+ systems, prototypes, frameworks, research tracks and production projects**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+This repository is a recruiter- and client-safe overview of **30+ documented systems, prototypes, frameworks and project tracks with distinct maturity levels**. Proprietary source code, credentials, private client data and protected internal logic remain private.
 
 ## ⚡ 30-second capability & proof scan
 
@@ -36,10 +36,12 @@ Synthetic regression work is underway in a private repository. **Independent bro
 
 → [View the OfferGuard™ public-safe case](./OFFERGUARD.md)
 
-### Governed Execution Runtime · V0.9 Candidate
-**Status:** DRAFT · INTERNAL TESTING · NOT PRODUCTION
+### Governed Execution Runtime · V1.1 Research Candidate
+**Status:** PRIVATE DRAFT · INTEGRATION TESTING · RELEASE HOLD
 
-An AI-workflow control layer exploring permission checks, evidence-bound authorization, fail-closed provider boundaries, recovery and human-controlled release. Its current V0.9 candidate includes simulated external trust/provider behavior, not a live production executor.
+An AI-workflow control layer for scope checks, evidence-bound authorization, recovery and human release authority. The research has progressed through V0.9 freshness verification, V1.0 persistent high-water checks and **V1.1 process-isolated witness testing on a single host**.
+
+The V1.1 work is **not** independently administered off-host trust, a real provider integration or production-ready security. Its private draft remains on release HOLD.
 
 → [View the Governed Execution Runtime public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
 
@@ -55,12 +57,12 @@ A governed Campaign Intelligence Workspace that keeps Project Memory, multi-miss
 
 An original interactive-world project built around exploration, progression, world design and repeatable game-system thinking. The project is shown publicly as active development, not as a released game.
 
-![SuusStudio Roblox The Signal world concept with Damien and Ryan](./assets/roblox-signal.jpg)
+![SuusStudio Roblox The Signal world concept with collaborators](./assets/roblox-signal.jpg)
 
 ### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
 **Status:** ACTIVE BUILD · COLLABORATIVE BUILD WITH DAMIEN + RYAN
 
-A shared Minecraft server and world-building project built with **Damien and Ryan**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
+A shared Minecraft server and world-building project built with **collaborators**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
 
 ![SuusStudio Minecraft HQ world build](./assets/minecraft-hq.jpg)
 
@@ -144,18 +146,18 @@ Representative work includes:
 - **Free Video Engine V2.1 Recovery**
 - **Laptop Keeper V1.0D** with dry-run, protected packages, review queues and fail-closed safeguards
 - **Money Flow Operations System** for opportunity qualification and human-reviewed outreach workflows
-- **Minecraft DelftV10 Crossplay** with Geyser/Floodgate integration and collaborative world-building with Damien and Ryan
+- **Minecraft DelftV10 Crossplay** with Geyser/Floodgate integration and collaborative world-building with collaborators
 
 ### Selected engineering proof
 Internally verified proof points include:
 - **480 / 480** passing defined acceptance tests in the frozen Content Intelligence OS V0.2 release qualification
 - **296 / 296** passing tests in Decision Engine V0.7 release qualification
 - **OfferGuard™:** synthetic checkout-evidence and shipping-conflict regression work; independent browser release gate remains open
-- **Governed Execution Runtime V0.9:** draft witness/freshness and recovery-validation work with simulated external services; production release remains on hold
+- **Governed Execution Runtime V1.1:** private one-host two-process witness tests; independent off-host trust, real provider use and security signoff remain open
 - exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
-- **88 / 88** passing tests in the latest packaged DWI deployment-guardrail runtime
+- **88 / 88** passing tests in a recorded DWI deployment-guardrail package validation
 - **9.19** weighted QA score in a governed motion dry run after one targeted revision
 - Team Emotion Machine V1.0 observer boundary: operational state recommendation without ACTUAL_STATE mutation, release authority or permission expansion
 - **60** bilingual Creator Core training examples + **10** separate validation tests
@@ -188,10 +190,10 @@ Internally verified proof points include:
 |---|---|---|
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
 | **OfferGuard™** | Checkout evidence / price transparency / adversarial QA | PRIVATE VALIDATION CANDIDATE · RELEASE HOLD |
-| **Governed Execution Runtime V0.9** | Agent permissions / evidence / recovery | DRAFT · SIMULATED SERVICES · NOT PRODUCTION |
+| **Governed Execution Runtime V1.1** | Agent permissions / evidence freshness / recovery | PRIVATE DRAFT · SINGLE-HOST TESTS · RELEASE HOLD |
 | **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
-| **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
+| **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · COLLABORATIVE BUILD |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **Team Emotion Machine V1.0** | Team-state intelligence / routing / governance | INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY |
@@ -220,7 +222,7 @@ Public-safe architecture, tool-boundary, state, recovery, evidence and human-aut
 Buyer-price and shipping-evidence QA, contradictory-option handling and the distinction between synthetic tests and real-world checkout approval.
 
 ### → [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
-Scoped tool execution, evidence-bound decisions, fail-closed recovery and V0.9 simulation-versus-production boundaries.
+Scoped tool execution, evidence-bound decisions and V0.9–V1.1 research boundaries. Same-host process isolation is not independent off-host authority.
 
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
