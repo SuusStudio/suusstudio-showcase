@@ -47,7 +47,7 @@ I built an evidence-first multi-sensor incident pipeline for aerial-object situa
 
 **Verified V5.0 proof:** 20/20 release validation checks · 100 deterministic benchmark incidents · 25/25 identical replays · hash-chained audit trail · false-positive reconstruction · fail-closed data-rights handling.
 
-![SuusStudio Multi-Sensor Incident Pipeline V5.0 public-safe dashboard](./assets/defence-v5-dashboard.jpg)
+**Dashboard visual temporarily withheld:** the existing image file did not pass deeper JPEG structure checks. The V5.0 engineering results below remain documented, while a rights-cleared, valid export is required before showing the dashboard.
 
 The public case shows **what I built and what I proved** while keeping protected fusion implementation, datasets, configuration, credentials and operational sensor details private.
 
