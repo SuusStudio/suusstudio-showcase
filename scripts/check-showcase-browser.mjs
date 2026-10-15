@@ -98,6 +98,24 @@ async function capture([name, path, width, height, mobile]) {
   if(png.length<1024) throw new Error('Screenshot empty');
   writeFileSync(join(out,name+'.png'),png);
   writeFileSync(join(out,name+'.json'),JSON.stringify({name,width,height,mobile,...metrics},null,2));
+  // Diagnostic only: inject a candidate containment fix in the local browser page.
+  // Never writes to Vercel or declares the unmerged CSS proven in production.
+  if (path === '/framework') {
+    const proposal = await cd('Runtime.evaluate', {
+      expression: '(() => {const shell=document.querySelector(".framework-shell"); ' +
+        'if(!shell)return {error:"shell not found"}; ' +
+        'shell.style.setProperty("overflow-x","clip","important"); ' +
+        'const d=document.documentElement,b=document.body; ' +
+        'return {viewportWidth:d.clientWidth,documentWidth:Math.max(d.scrollWidth,b?.scrollWidth||0), ' +
+        'overflowPx:Math.max(0,Math.max(d.scrollWidth,b?.scrollWidth||0)-d.clientWidth)};})()',
+      returnByValue: true,
+    });
+    const candidate = proposal.result?.value || {error:'no diagnostic result'};
+    writeFileSync(join(out,name+'-candidate.json'),JSON.stringify(candidate,null,2));
+    console.log('CSS_CANDIDATE case='+name+' overflow_px='+(candidate.overflowPx ?? 'UNKNOWN'));
+    const patchedShot=await cd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+    writeFileSync(join(out,name+'-candidate.png'),Buffer.from(patchedShot.data,'base64'));
+  }
   if (metrics.overflowPx > 4) console.error('BROWSER_OVERFLOW=FAIL case='+name+' px='+metrics.overflowPx);
   console.log('BROWSER_CAPTURE case='+name+' screenshot_bytes='+png.length+
     ' overflow_px='+metrics.overflowPx+' links='+metrics.links+' canvases='+metrics.canvases+
