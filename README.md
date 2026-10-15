@@ -31,12 +31,12 @@ A governed Campaign Intelligence Workspace that keeps Project Memory, multi-miss
 
 An original interactive-world project built around exploration, progression, world design and repeatable game-system thinking. The project is shown publicly as active development, not as a released game.
 
-![SuusStudio Roblox The Signal world concept with Damien and Ryan](./assets/roblox-signal.jpg)
+**Artwork withheld:** source image integrity and publication rights must be verified before displaying the Roblox concept.
 
 ### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
-**Status:** ACTIVE BUILD · COLLABORATIVE BUILD WITH DAMIEN + RYAN
+**Status:** ACTIVE BUILD · COLLABORATIVE BUILD
 
-A shared Minecraft server and world-building project built with **Damien and Ryan**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
+A shared Minecraft server and world-building project built with **collaborators**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
 
 ![SuusStudio Minecraft HQ world build](./assets/minecraft-hq.jpg)
 
@@ -120,7 +120,7 @@ Representative work includes:
 - **Free Video Engine V2.1 Recovery**
 - **Laptop Keeper V1.0D** with dry-run, protected packages, review queues and fail-closed safeguards
 - **Money Flow Operations System** for opportunity qualification and human-reviewed outreach workflows
-- **Minecraft DelftV10 Crossplay** with Geyser/Floodgate integration and collaborative world-building with Damien and Ryan
+- **Minecraft DelftV10 Crossplay** with Geyser/Floodgate integration and collaborative world-building with collaborators
 
 ### Selected engineering proof
 Internally verified proof points include:
@@ -163,7 +163,7 @@ Internally verified proof points include:
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
 | **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
-| **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · DAMIEN + RYAN COLLABORATION |
+| **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · COLLABORATIVE BUILD |
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **Team Emotion Machine V1.0** | Team-state intelligence / routing / governance | INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY |
