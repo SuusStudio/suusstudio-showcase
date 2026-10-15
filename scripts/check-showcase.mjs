@@ -19,14 +19,48 @@ function error(file, message) {
 function readablePath(p) {
   return relative(root, p).split(sep).join('/');
 }
+// A JPEG can have intact SOI/EOI bytes but broken segments and no valid image scan.
+// This validates the marker/segment chain through the first SOS. It is NOT a
+// full image decoder, rendering test or license/consent check.
+function hasJpegFrameAndScan(data) {
+  if (data.length < 16 || data[0] !== 0xff || data[1] !== 0xd8 ||
+      data.at(-2) !== 0xff || data.at(-1) !== 0xd9) return false;
+  let position = 2;
+  let hasFrame = false;
+  while (position + 3 < data.length) {
+    if (data[position++] !== 0xff) return false;
+    while (position < data.length && data[position] === 0xff) position++;
+    if (position >= data.length) return false;
+    const marker = data[position++];
+    if (marker === 0xd9) return false; // no scan before end
+    if (marker === 0x01 || (marker >= 0xd0 && marker <= 0xd7)) continue;
+    if (position + 2 > data.length) return false;
+    const length = data.readUInt16BE(position);
+    if (length < 2 || position + length > data.length) return false;
+    if ((marker >= 0xc0 && marker <= 0xc3) ||
+        (marker >= 0xc5 && marker <= 0xc7) ||
+        (marker >= 0xc9 && marker <= 0xcb) ||
+        (marker >= 0xcd && marker <= 0xcf)) hasFrame = true;
+    if (marker === 0xda) return hasFrame;
+    position += length;
+  }
+  return false;
+}
+const quarantinedImages = new Set([
+  'assets/roblox-signal.jpg',
+  'assets/defence-v5-dashboard.jpg',
+]);
 function embeddedAssetCheck(file, target) {
   imageChecks++;
+  const readable = readablePath(target);
+  if (quarantinedImages.has(readable)) {
+    error(file, `previously invalid image embedded without verified replacement: ${readable}`);
+  }
   const suffix = extname(target).toLowerCase();
   const data = readFileSync(target);
   if (suffix === '.jpg' || suffix === '.jpeg') {
-    if (!(data.length > 4 && data[0] === 0xff && data[1] === 0xd8 &&
-          data.at(-2) === 0xff && data.at(-1) === 0xd9)) {
-      error(file, `embedded JPEG missing SOI/EOI markers: ${readablePath(target)}`);
+    if (!hasJpegFrameAndScan(data)) {
+      error(file, `embedded JPEG has missing/corrupt SOI, EOI, frame or scan: ${readable}`);
     }
   } else if (suffix === '.png') {
     if (!(data.length > 20 && data.subarray(0, 8).equals(
@@ -73,16 +107,12 @@ for (const name of markdownFiles) {
     if (isImage) embeddedAssetCheck(name, target);
   }
 }
-// The known incomplete Roblox artwork must not reappear without approved re-export.
-// The original asset may remain stored for recovery; it is NOT publication approval.
-const home = readFileSync(resolve(root, 'README.md'), 'utf8');
-if (/!\[[^\]]*\]\(\.?\/assets\/roblox-signal\.jpg\)/.test(home)) {
-  error('README.md', 'unverified Roblox JPEG must not be embedded');
-}
+// Incomplete images are preserved as evidence but disallowed from Markdown embeds.
+// To clear quarantine, first re-export, validate and obtain human rights signoff.
 console.log(`SHOWCASE_QA markdown_files=${markdownFiles.length} local_links=${localLinks} embedded_images=${imageChecks} offline_external_links=${externalLinks}`);
 for (const problem of failures) console.error(`FAIL: ${problem}`);
 if (failures.length) {
   console.error(`SHOWCASE_QA=FAIL failures=${failures.length}`);
   process.exit(1);
 }
-console.log('SHOWCASE_QA=PASS (static links and embedded asset markers only; rights and browser HOLD)');
+console.log('SHOWCASE_QA=PASS (static links and embedded JPEG structure only; rights and browser HOLD)');
