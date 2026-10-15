@@ -57,7 +57,7 @@ A governed Campaign Intelligence Workspace that keeps Project Memory, multi-miss
 
 An original interactive-world project built around exploration, progression, world design and repeatable game-system thinking. The project is shown publicly as active development, not as a released game.
 
-![SuusStudio Roblox The Signal world concept with collaborators](./assets/roblox-signal.jpg)
+**World-build proof:** the project covers canonical scene geometry, camera routes, visual-system consistency and repeatable QA. Concept artwork is temporarily withheld from this public summary pending an intact source export and confirmation of publication rights.
 
 ### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
 **Status:** ACTIVE BUILD · COLLABORATIVE PROJECT
