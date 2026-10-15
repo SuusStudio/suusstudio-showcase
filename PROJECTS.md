@@ -126,6 +126,24 @@ An early parallax wallpaper experiment. The V1 approach did not meet the intende
 
 # Apps, automation & operational systems
 
+## OfferGuard™ · Checkout Evidence QA
+**Status:** PRIVATE VALIDATION CANDIDATE · RELEASE HOLD
+
+A buyer-clarity project for checkout evidence, including pricing and fee applicability, shipping-option selection and conflict-aware decision outcomes. The engineering focus is to avoid unsupported final-price claims when underlying evidence is incomplete or contradictory.
+
+Private synthetic regression and defect-repair work exists. Independent browser validation, real-merchant generalization, product release and buyer acquisition approval remain open; no production or commercial sale readiness is claimed.
+
+→ [Read the public-safe OfferGuard™ case](./OFFERGUARD.md)
+
+## Governed Execution Runtime V0.9
+**Status:** DRAFT CANDIDATE · INTERNAL TESTING · NOT PRODUCTION
+
+An evidence-bound control layer for AI-assisted operations: scoped permissions, stale-state checks, fail-closed execution decisions, recovery visibility and explicit human authority.
+
+The V0.9 draft explores witness/freshness validation with simulated signing and provider status. Its test record supports internal candidate evaluation, not independent third-party assurance or production deployment.
+
+→ [Read the public-safe Governed Execution Runtime case](./GOVERNED_EXECUTION_RUNTIME.md)
+
 ## SuusStudio™ Content Intelligence OS V0.2
 **Status:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
 
