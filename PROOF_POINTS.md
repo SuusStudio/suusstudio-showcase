@@ -42,14 +42,14 @@ Synthetic regressions and repair work address checkout total evidence, shipping 
 
 → [Public-safe case](./OFFERGUARD.md)
 
-### Governed Execution Runtime V0.9–V1.1 research timeline
+### Governed Execution Runtime V0.9–V1.2 research timeline
 **Status:** PRIVATE DRAFTS · ONE-HOST TESTS · RELEASE HOLD
 
-The V0.9 draft remains a historical step. Later private draft work reached V1.1 with local process separation on one test host. This is not independently operated infrastructure, a live provider integration or an approved production release.
+The V0.9 draft remains historical. V1.1 exercised two local processes on one host. V1.2 adds a read-only signed admission-evidence candidate using simulated role attestations. Distinct keys and declared operator labels are not evidence of independent administrators or real security-review signoff. None of these draft tests is a production release.
 
 Private candidate work addresses evidence-bound permission, freshness checks, provider status and recovery records. Draft tests are internal development evidence.
 
-**Evidence boundary:** external signing/provider interactions are simulated. No independent operator signoff or live production executor is claimed.
+**Evidence boundary:** V1.2 uses local test identities and simulated attesters, not independently managed external infrastructure. The evidence check cannot authorize release or provider effects. No independent operator signoff or live production executor is claimed.
 
 → [Public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
 
