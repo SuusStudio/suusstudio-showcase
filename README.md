@@ -36,12 +36,12 @@ Synthetic regression work is underway in a private repository. **Independent bro
 
 → [View the OfferGuard™ public-safe case](./OFFERGUARD.md)
 
-### Governed Execution Runtime · V1.1 Research Candidate
+### Governed Execution Runtime · V1.2 Research Candidate
 **Status:** PRIVATE DRAFT · INTEGRATION TESTING · RELEASE HOLD
 
 An AI-workflow control layer for scope checks, evidence-bound authorization, recovery and human release authority. The research has progressed through V0.9 freshness verification, V1.0 persistent high-water checks and **V1.1 process-isolated witness testing on a single host**.
 
-The V1.1 work is **not** independently administered off-host trust, a real provider integration or production-ready security. Its private draft remains on release HOLD.
+The newer V1.2 draft adds a **read-only admission-evidence check** using simulated, separately labelled signed roles. Distinct signatures and claimed operators do **not** prove independently administered trust or a completed human security audit. No real provider integration or production release is claimed; the draft remains on HOLD.
 
 → [View the Governed Execution Runtime public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
 
@@ -153,7 +153,7 @@ Internally verified proof points include:
 - **480 / 480** passing defined acceptance tests in the frozen Content Intelligence OS V0.2 release qualification
 - **296 / 296** passing tests in Decision Engine V0.7 release qualification
 - **OfferGuard™:** synthetic checkout-evidence and shipping-conflict regression work; independent browser release gate remains open
-- **Governed Execution Runtime V1.1:** private one-host two-process witness tests; independent off-host trust, real provider use and security signoff remain open
+- **Governed Execution Runtime V1.2:** private signed-evidence research on simulated operator roles; independent real-world trust, provider use and security signoff remain open
 - exact review-diff / decision-context binding and signed operator decisions in V0.7
 - **20 / 20** release validation checks in Multi-Sensor Incident Pipeline V5.0
 - **100** deterministic V5.0 benchmark incidents and **25 / 25** identical replays
@@ -190,7 +190,7 @@ Internally verified proof points include:
 |---|---|---|
 | **Decision Engine V0.7** | Agent governance / human decision control / evidence | RELEASE PASS · DECISION-ONLY CONTROL LAYER |
 | **OfferGuard™** | Checkout evidence / price transparency / adversarial QA | PRIVATE VALIDATION CANDIDATE · RELEASE HOLD |
-| **Governed Execution Runtime V1.1** | Agent permissions / evidence freshness / recovery | PRIVATE DRAFT · SINGLE-HOST TESTS · RELEASE HOLD |
+| **Governed Execution Runtime V1.2** | Agent permissions / evidence freshness / admission evidence | PRIVATE DRAFT · SIMULATED OPERATORS · RELEASE HOLD |
 | **Content Intelligence OS V0.2** | Campaign intelligence / memory / decisions / asset lineage | FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION |
 | **Roblox Game Project** | Interactive entertainment / world systems | IN DEVELOPMENT · PUBLIC LAUNCH NOT CLAIMED |
 | **Minecraft DelftV10 + SUUSSTUDIO™ Festival World** | Cross-platform world building / event storytelling | ACTIVE BUILD · COLLABORATIVE BUILD |
@@ -222,7 +222,7 @@ Public-safe architecture, tool-boundary, state, recovery, evidence and human-aut
 Buyer-price and shipping-evidence QA, contradictory-option handling and the distinction between synthetic tests and real-world checkout approval.
 
 ### → [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
-Scoped tool execution, evidence-bound decisions and V0.9–V1.1 research boundaries. Same-host process isolation is not independent off-host authority.
+Scoped tool execution, evidence-bound decisions and V0.9–V1.2 research boundaries. Signed role claims and same-host process tests are not independent operator proof.
 
 ### → [Defence Innovation V5.0](./DEFENCE_INNOVATION_V5.md)
 Public-safe architecture, validation evidence, human-in-the-loop design, safety boundaries and the controlled external-evaluation route for the Multi-Sensor Incident Pipeline V5.0.
