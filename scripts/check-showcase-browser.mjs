@@ -77,7 +77,7 @@ const probe = '(() => { const d = document.documentElement; const b = document.b
   'overflowElements:[...document.querySelectorAll("*")].map(e=>{const r=e.getBoundingClientRect(); ' +
   'return {tag:e.tagName,cls:String(e.className?.baseVal||e.className||"").slice(0,100), ' +
   'right:Math.round(r.right),left:Math.round(r.left),width:Math.round(r.width)}; ' +
-  '}).filter(x=>x.right>d.clientWidth+4 || x.left< -4).sort((a,b)=>b.right-a.right).slice(0,16)] ' +
+  '}).filter(x=>x.right>d.clientWidth+4 || x.left< -4).sort((a,b)=>b.right-a.right).slice(0,16) ' +
   '}; })()';
 async function capture([name, path, width, height, mobile]) {
   const url = root + path;
@@ -90,7 +90,7 @@ async function capture([name, path, width, height, mobile]) {
   if(nav.errorText) throw new Error(nav.errorText);
   await pause(4500);
   const evalResult = await cd('Runtime.evaluate',{expression:probe,returnByValue:true});
-  if(evalResult.exceptionDetails) throw new Error('DOM probe failed');
+  if(evalResult.exceptionDetails) throw new Error('DOM probe failed: ' + JSON.stringify(evalResult.exceptionDetails).slice(0,700));
   const metrics = evalResult.result.value;
   if(!metrics || !metrics.title || !metrics.viewportWidth) throw new Error('Empty page/metrics');
   const screenshot = await cd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
