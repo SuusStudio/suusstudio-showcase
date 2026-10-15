@@ -1,6 +1,6 @@
 # Governed Execution Runtime | Permission, Evidence & Recovery
 
-**Status:** V0.9 DRAFT CANDIDATE · INTERNAL TESTING · RELEASE HOLD
+**Status:** V1.1 PRIVATE DRAFT CANDIDATE · ONE-HOST TESTING · RELEASE HOLD
 
 **The problem:** an AI-assisted workflow can generate a sensible response while still acting with stale approval, ambiguous permission or insufficient evidence. Agent capability alone should never decide whether a consequential action may proceed.
 
@@ -17,9 +17,9 @@
 
 ## Current proof boundary, 15 October 2026
 
-A private V0.9 candidate addresses witness and freshness checks around authorization and provider status, with a read-only recovery-evidence concept. Its draft review record reports targeted synthetic and regression testing.
+The internal research sequence progressed from V0.9 freshness and simulated provider checks to V1.0 persistent witness testing and a V1.1 local process-isolation pilot. The newest draft uses multiple test processes **on one host**, without separately administered external authority.
 
-**Important:** external signing and provider integrations in that candidate are simulated. Independent operator review, live integration proof and production deployment have **not** been established by the draft. This page is not a public source audit or a claim of third-party security certification.
+**Important:** a local multi-process test is not an independently administered trust domain. Earlier simulated provider checks are not evidence of live provider execution. Independent operator review, live integration proof and production deployment have **not** been established by the drafts. This page is not a public source audit or a claim of third-party security certification.
 
 Earlier internal decision-layer tests and governance work are documented separately in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md). An earlier decision-only release passing its defined checks does not make this newer draft a production executor.
 
@@ -29,7 +29,7 @@ An AI workflow can be useful but still unsafe to deploy if it cannot distinguish
 
 **Potential paid feasibility pilot, not a production executor:** define one bounded approval-driven workflow, identify what must be reviewed by a human, test expected and prohibited behaviors in a simulation, and deliver a documented findings/acceptance report. Any live integration would require its own security, privacy, operational and independent approval gates.
 
-**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private draft is not offered as a deployed service or independently certified control platform.
+**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private V1.1 draft is not offered as a deployed service or independently certified control platform.
 
 ## Protected material
 
