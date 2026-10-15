@@ -60,7 +60,7 @@ An original interactive-world project built around exploration, progression, wor
 ![SuusStudio Roblox The Signal world concept with collaborators](./assets/roblox-signal.jpg)
 
 ### Minecraft · DelftV10 + SUUSSTUDIO™ Festival World
-**Status:** ACTIVE BUILD · COLLABORATIVE BUILD WITH DAMIEN + RYAN
+**Status:** ACTIVE BUILD · COLLABORATIVE PROJECT
 
 A shared Minecraft server and world-building project built with **collaborators**, combining custom environments, Java/Bedrock cross-play, event-style storytelling and iterative world QA. Public proof shows the world direction and build capability without exposing private server configuration.
 
