@@ -3,7 +3,7 @@
 **Audit date:** 18 August 2026  
 **Scope:** `SuusStudio/suusstudio-showcase`
 
-**October addendum review:** 15 October 2026 · public-safe OfferGuard™ and Governed Execution Runtime V0.9 candidate summaries.
+**October addendum review:** 15 October 2026 · public-safe OfferGuard™ and Governed Execution Runtime V0.9–V1.2 research summaries.
 
 The original audit date above refers to the August portfolio review; it has **not** been backdated. The October additions were checked against private draft PR descriptions and their stated validation boundaries. Those development claims were **not** independently re-executed as part of this public documentation change.
 
@@ -57,7 +57,7 @@ During the portfolio audit, private implementation or validation evidence was co
 - Reality-Bend Engine
 - Travel Prompt Engine
 
-These implementations remain private by design. Their presence is reflected in the catalogue without publishing protected source material.
+These implementations remain private by design. Their presence is reflected in the catalogue without publishing protected source material. This audit is documentation-focused and does not establish independent source-code inspection of every private system.
 
 ## Selected internal proof points
 
@@ -73,7 +73,7 @@ These proof points are summarized publicly in [Engineering Proof Points](./PROOF
 ## October 2026 candidate claim boundaries
 
 - **OfferGuard™:** private synthetic regressions and draft repairs are **internal development evidence**, not a completed independent browser/merchant evaluation, certified price checker, released product or approved buyer transaction.
-- **Governed Execution Runtime V0.9–V1.1:** private V0.9 simulated trust/provider work is followed by V1.1 same-host process-testing in a newer draft. It is not independently administered external trust; no production executor, external attestation or independent operator signoff is claimed.
+- **Governed Execution Runtime V0.9–V1.2:** V0.9 simulated trust/provider work was followed by V1.1 same-host process testing and V1.2 read-only signed-admission evidence using mock operators and locally generated keys. None constitutes independently administered external trust, a completed human security review or permission to invoke a production executor.
 - **Deployment previews and CI checks:** these can support build/readiness claims but do not independently prove user-facing behavioral correctness or permission to release.
 - **Access:** public readers can inspect these summaries, **not** the protected code or private execution evidence.
 
