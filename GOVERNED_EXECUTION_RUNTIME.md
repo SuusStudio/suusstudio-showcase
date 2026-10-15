@@ -1,6 +1,6 @@
 # Governed Execution Runtime | Permission, Evidence & Recovery
 
-**Status:** V1.1 PRIVATE DRAFT CANDIDATE · ONE-HOST TESTING · RELEASE HOLD
+**Status:** V1.2 PRIVATE DRAFT CANDIDATE · SIMULATED TRUST EVIDENCE · RELEASE HOLD
 
 **The problem:** an AI-assisted workflow can generate a sensible response while still acting with stale approval, ambiguous permission or insufficient evidence. Agent capability alone should never decide whether a consequential action may proceed.
 
@@ -17,9 +17,9 @@
 
 ## Current proof boundary, 15 October 2026
 
-The internal research sequence progressed from V0.9 freshness and simulated provider checks to V1.0 persistent witness testing and a V1.1 local process-isolation pilot. The newest draft uses multiple test processes **on one host**, without separately administered external authority.
+The private research sequence progressed from V0.9 freshness and simulated provider checks to V1.0 local persistent witness testing and V1.1 process-isolation experiments on **one host**. The latest V1.2 draft adds a read-only, signed admission-evidence candidate that checks simulated registry, witness and review attestations. Distinct local keys and declared operator roles cannot prove genuinely independent administration or that a human security review occurred.
 
-**Important:** a local multi-process test is not an independently administered trust domain. Earlier simulated provider checks are not evidence of live provider execution. Independent operator review, live integration proof and production deployment have **not** been established by the drafts. This page is not a public source audit or a claim of third-party security certification.
+**Important:** an evidence package that passes cryptographic checks is not production trust, independent human review or permission to execute actions. Earlier simulated provider checks are not evidence of real provider use. Independent operator review, external key custody, real integration proof and production deployment have **not** been established. The V1.2 candidate explicitly withholds provider and release authority. This page is not a public source audit or a claim of third-party security certification.
 
 Earlier internal decision-layer tests and governance work are documented separately in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md). An earlier decision-only release passing its defined checks does not make this newer draft a production executor.
 
@@ -29,7 +29,7 @@ An AI workflow can be useful but still unsafe to deploy if it cannot distinguish
 
 **Potential paid feasibility pilot, not a production executor:** define one bounded approval-driven workflow, identify what must be reviewed by a human, test expected and prohibited behaviors in a simulation, and deliver a documented findings/acceptance report. Any live integration would require its own security, privacy, operational and independent approval gates.
 
-**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private V1.1 draft is not offered as a deployed service or independently certified control platform.
+**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private V1.2 draft is not offered as a deployed service or independently certified control platform.
 
 ## Protected material
 
