@@ -3,6 +3,10 @@
 **Audit date:** 18 August 2026  
 **Scope:** `SuusStudio/suusstudio-showcase`
 
+**October addendum review:** 15 October 2026 · public-safe OfferGuard™ and Governed Execution Runtime V0.9 candidate summaries.
+
+The original audit date above refers to the August portfolio review; it has **not** been backdated. The October additions were checked against private draft PR descriptions and their stated validation boundaries. Those development claims were **not** independently re-executed as part of this public documentation change.
+
 This file explains how claims in this public showcase are handled and what the maturity labels mean. It exists to make the portfolio easier to evaluate without publishing proprietary implementation details.
 
 ## Verification standard
@@ -65,6 +69,15 @@ The following numbers are included as **internal validation evidence**, not as p
 - the external video-provider adapter boundary is documented as **live-ready, not live-executed** in its validation record; paid provider generation is not claimed from that test
 
 These proof points are summarized publicly in [Engineering Proof Points](./PROOF_POINTS.md). Detailed source code, private runtime state, security configuration and provider credentials are intentionally excluded.
+
+## October 2026 candidate claim boundaries
+
+- **OfferGuard™:** private synthetic regressions and draft repairs are **internal development evidence**, not a completed independent browser/merchant evaluation, certified price checker, released product or approved buyer transaction.
+- **Governed Execution Runtime V0.9:** private draft candidate with simulated external trust/provider behavior; no production executor, external attestation or independent operator signoff is claimed.
+- **Deployment previews and CI checks:** these can support build/readiness claims but do not independently prove user-facing behavioral correctness or permission to release.
+- **Access:** public readers can inspect these summaries, **not** the protected code or private execution evidence.
+
+Related: [OfferGuard™](./OFFERGUARD.md) · [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
 
 ## Privacy verification
 
