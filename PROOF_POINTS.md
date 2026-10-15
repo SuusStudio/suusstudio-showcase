@@ -31,6 +31,26 @@ A fast, public-safe view of technical work that goes beyond visual output.
 
 This page explains **what was built and what was tested** without publishing private source code, internal prompts, credentials, client data, protected policy content or orchestration logic.
 
+## October 2026 engineering candidates · distinct from release proof
+
+### OfferGuard™
+**Status:** PRIVATE VALIDATION CANDIDATE · RELEASE HOLD
+
+Synthetic regressions and repair work address checkout total evidence, shipping applicability, option selection and conflicting sources. The safety-relevant design rule is that unresolved fee or selection evidence must not justify an automatic final-price clearance.
+
+**Evidence boundary:** private draft implementation records and test reports; independent browser replay, held-out merchant validation and buyer/legal release review remain outstanding. A preview marked ready is not checkout evidence.
+
+→ [Public-safe case](./OFFERGUARD.md)
+
+### Governed Execution Runtime V0.9
+**Status:** DRAFT CANDIDATE · SIMULATED EXTERNAL SERVICES
+
+Private candidate work addresses evidence-bound permission, freshness checks, provider status and recovery records. Draft tests are internal development evidence.
+
+**Evidence boundary:** external signing/provider interactions are simulated. No independent operator signoff or live production executor is claimed.
+
+→ [Public-safe case](./GOVERNED_EXECUTION_RUNTIME.md)
+
 ## 1. AI Agent Engineering / Decision Control
 **Status:** VERIFIED INTERNAL PROOF · PUBLIC-SAFE SUMMARY
 
