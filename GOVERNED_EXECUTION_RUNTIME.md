@@ -17,7 +17,7 @@
 
 ## Current proof boundary, 15 October 2026
 
-The private research sequence progressed from V0.9 freshness and simulated provider checks to V1.0 local persistent witness testing and V1.1 process-isolation experiments on **one host**. The latest V1.2 draft adds a read-only, signed admission-evidence candidate that checks simulated registry, witness and review attestations. Distinct local keys and declared operator roles cannot prove genuinely independent administration or that a human security review occurred.
+The private research sequence progressed from V0.9 freshness and simulated provider checks to V1.0 local persistent witness testing and V1.1 process-isolation experiments on **one host**. The V1.2 research snapshot adds a read-only, signed admission-evidence candidate that checks simulated registry, witness and review attestations. Distinct local keys and declared operator roles cannot prove genuinely independent administration or that a human security review occurred.
 
 **Important:** an evidence package that passes cryptographic checks is not production trust, independent human review or permission to execute actions. Earlier simulated provider checks are not evidence of real provider use. Independent operator review, external key custody, real integration proof and production deployment have **not** been established. The V1.2 candidate explicitly withholds provider and release authority. This page is not a public source audit or a claim of third-party security certification.
 
