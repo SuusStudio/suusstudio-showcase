@@ -36,7 +36,7 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 ### October 2026 candidates (not production releases)
 
 - **OfferGuard™:** private checkout-evidence tests and repair cycles; real-browser/merchant and independent release checks remain open. [Case](./OFFERGUARD.md)
-- **Governed Execution Runtime V1.2:** latest private draft adds a read-only signed-evidence check with simulated operators; neither real operator independence nor release is established. [Case](./GOVERNED_EXECUTION_RUNTIME.md)
+- **Governed Execution Runtime V1.2:** V1.2 research snapshot includes a read-only signed-evidence check with simulated operators; neither real operator independence nor release is established. [Case](./GOVERNED_EXECUTION_RUNTIME.md)
 
 ### AI Agent Engineering
 **Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
