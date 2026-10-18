@@ -3,6 +3,10 @@
 **Audit date:** 18 August 2026  
 **Scope:** `SuusStudio/suusstudio-showcase`
 
+**October addendum review:** 15 October 2026 · public-safe OfferGuard™ and Governed Execution Runtime V0.9–V1.2 research summaries.
+
+The original audit date above refers to the August portfolio review; it has **not** been backdated. The October additions were checked against private draft PR descriptions and their stated validation boundaries. Those development claims were **not** independently re-executed as part of this public documentation change.
+
 This file explains how claims in this public showcase are handled and what the maturity labels mean. It exists to make the portfolio easier to evaluate without publishing proprietary implementation details.
 
 ## Verification standard
@@ -53,7 +57,7 @@ During the portfolio audit, private implementation or validation evidence was co
 - Reality-Bend Engine
 - Travel Prompt Engine
 
-These implementations remain private by design. Their presence is reflected in the catalogue without publishing protected source material.
+These implementations remain private by design. Their presence is reflected in the catalogue without publishing protected source material. This audit is documentation-focused and does not establish independent source-code inspection of every private system.
 
 ## Selected internal proof points
 
@@ -65,6 +69,27 @@ The following numbers are included as **internal validation evidence**, not as p
 - the external video-provider adapter boundary is documented as **live-ready, not live-executed** in its validation record; paid provider generation is not claimed from that test
 
 These proof points are summarized publicly in [Engineering Proof Points](./PROOF_POINTS.md). Detailed source code, private runtime state, security configuration and provider credentials are intentionally excluded.
+
+## October 2026 candidate claim boundaries
+
+- **OfferGuard™:** private synthetic regressions and draft repairs are **internal development evidence**, not a completed independent browser/merchant evaluation, certified price checker, released product or approved buyer transaction.
+- **Governed Execution Runtime V0.9–V1.2:** V0.9 simulated trust/provider work was followed by V1.1 same-host process testing and V1.2 read-only signed-admission evidence using mock operators and locally generated keys. None constitutes independently administered external trust, a completed human security review or permission to invoke a production executor.
+- **Deployment previews and CI checks:** these can support build/readiness claims but do not independently prove user-facing behavioral correctness or permission to release.
+- **Access:** public readers can inspect these summaries, **not** the protected code or private execution evidence.
+
+Related: [OfferGuard™](./OFFERGUARD.md) · [Governed Execution Runtime](./GOVERNED_EXECUTION_RUNTIME.md)
+
+## Visual asset release gate · 15 October 2026
+
+**Asset integrity:** `assets/roblox-signal.jpg` in the public repository does not contain the normal JPEG end-of-image marker. It is **not treated as an approved public visual proof**. PR #11 deliberately stops embedding it in the README. The original file is preserved, unmodified, so a rights-cleared source can later be re-exported and checked without fabricating pixels.
+
+**Further image-integrity failure (15 October 2026):** `assets/defence-v5-dashboard.jpg` contains normal JPEG start/end bytes, but the internal JPEG segment chain is malformed before a frame/scan can be established. A visual decoding attempt also failed. The earlier check of only beginning/end markers was **insufficient and is superseded**. PR #11 now withholds the Defence image from both `README.md` and `DEFENCE_INNOVATION_V5.md`; the binary is preserved, not repaired or replaced. The documentation QA now checks the JPEG frame/scan structure for embedded JPGs and quarantines both defective image paths. This remains a *structural* check, not a full browser/image-decoder proof.
+
+**Publication rights and privacy:** ownership, likeness/subject consent (especially for recognizable people or minors), licenses and provenance for all featured images must be confirmed by the responsible human before final publication. A file decoding successfully does not prove its publication rights. The Minecraft JPEG was visually inspected as a low-resolution game-world screenshot without identifiable human faces; it still **has no independent rights or ownership signoff**. The embedded SVG system map and remaining assets also require provenance/rights confirmation.
+
+**Visual acceptance still required:** actual rendering, responsive/mobile display, keyboard accessibility and external links on the live website must be checked separately. Vercel's `READY` deployment label and passing Markdown link checks are not user-interface QA.
+
+**Release boundary:** markdown/documentation QA may PASS while image approval, external reviewer, mobile/browser QA and merge remain HOLD. Do not publish substitute artwork or identify private collaborators without affirmative permission.
 
 ## Privacy verification
 

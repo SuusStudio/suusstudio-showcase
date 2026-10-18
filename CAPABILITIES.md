@@ -18,7 +18,9 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **Web application development** | Building functional browser-based tools, UI, application logic and production-ready releases | SEO V20, SuusStudio™ website |
 | **SEO tooling** | Automated website analysis, multi-category checks and clear scoring/reporting logic | SEO V20 |
 | **Security-aware web logic** | Protecting tooling against unsafe network targets and using conservative failure behaviour | SEO V20 private-network protection, Laptop Keeper fail-closed design |
-| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0, Decision Engine V0.7 |
+| **AI governance & trust controls** | Permission-aware execution, proof-before-publish logic, fail-closed gates and evidence-oriented workflow design | Darkweb Intelligence Layer V2.0, Decision Engine V0.7, Governed Execution Runtime V1.2 draft |
+| **Checkout evidence & adversarial QA** | Checking whether price, fee and option-selection claims are supported before presenting a final result | OfferGuard™ private validation candidate |
+| **Recovery & evidence freshness** | Distinguishing prior approvals, current proof and provider outcomes; withholding action when verification is incomplete | Governed Execution Runtime V1.2 draft |
 | **PWA implementation** | Manifest, standalone installation behaviour, service worker and app icons | SEO V20 |
 | **Visual QA** | Reviewing identity consistency, physical realism, anatomy, lighting, composition and scene coherence | Physical Realism QA, Optical Illusion QA, Identity Drift Governor |
 | **Identity-aware workflows** | Consent, approved identity usage, consistency and controlled creative scope | Identity Engine Doctrine, Identity Usage Passport |
@@ -30,6 +32,11 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **Technical experimentation** | Testing ideas, preserving failed experiments and using findings to improve later versions | Wallpaper Parallax MAX, Reality-Bend research |
 
 ## Implementation proof
+
+### October 2026 candidates (not production releases)
+
+- **OfferGuard™:** private checkout-evidence tests and repair cycles; real-browser/merchant and independent release checks remain open. [Case](./OFFERGUARD.md)
+- **Governed Execution Runtime V1.2:** V1.2 research snapshot includes a read-only signed-evidence check with simulated operators; neither real operator independence nor release is established. [Case](./GOVERNED_EXECUTION_RUNTIME.md)
 
 ### AI Agent Engineering
 **Status:** PUBLIC-SAFE CAPABILITY CASE · VERIFIED INTERNAL PROOF
@@ -61,7 +68,7 @@ One controlled internal motion dry run blocked an initial identity-quality failu
 A bilingual structured dataset for creative AI reasoning with **60 training examples**, **10 validation tests**, an evaluation scorecard, JSONL structure and duplicate/secret-key quality checks.
 
 ### SEO V20
-**Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
+**Status:** PRIVATE RESEARCH ASSET · NOT FOR SALE
 
 Internally developed SEO application with implemented capabilities including:
 - POST-based website scanning
@@ -72,7 +79,7 @@ Internally developed SEO application with implemented capabilities including:
 - PWA implementation work
 - production deployment experience
 
-The SEO engine is not offered as a free public tool. Customer access is intended to be isolated behind its own SEO payment, account and entitlement flow.
+The SEO engine is not a public tool or service. Its old payment/account entitlement designs are historical prototypes; no paid access is offered.
 
 ### SuusStudio™
 **Live:** https://suus-studio.vercel.app
@@ -87,7 +94,7 @@ SuusStudio™ work typically follows this sequence:
 
 The emphasis is on systems that can be repeated, inspected, governed and improved.
 
-## Commercial relevance
+## Research and technical applications
 
 These capabilities can be applied to:
 
@@ -112,6 +119,6 @@ These capabilities can be applied to:
 
 This matrix describes capability, not unrestricted access to proprietary implementation. Private source code, client data, identity source material, credentials, protected policy content and orchestration logic are not part of the public showcase.
 
-Commercial engines are separated from public portfolio content and require their own authorized customer access.
+Historical payment-oriented concepts remain inactive/private. This public portfolio documents research and creativity without selling services or charging visitors.
 
-**Updated:** 30 September 2026
+**Updated:** 15 October 2026
