@@ -2,17 +2,17 @@
 
 **Prompt Engineer · UX / AI Creative Systems Designer · Developer**
 
-I design **AI workflows, digital experiences and quality-control systems** that turn scattered ideas into structured, testable work. The focus is clear business goals, human control and evidence you can review, not impressive-sounding automation without proof.
+I design **AI workflows, digital experiences and quality-control systems** that turn scattered ideas into structured, testable work. The focus is clearly defined creative goals, human control and evidence you can review, not impressive-sounding automation without proof.
 
 > **Storytelling × Marketing × Systems**
 
 ## Start here
 
-**For clients:** Need a better web experience, a repeatable AI-assisted workflow, or stronger visual/technical QA? Bring **one real workflow problem**. I can help define a **scoped, paid project or feasibility pilot** with deliverables, acceptance criteria and a clear boundary between prototype and production. Projects are handled remotely with clear written communication.
+**For visitors and collaborators:** Explore this free, non-commercial portfolio of visual work, interactive worlds, AI systems and technical research. Projects here demonstrate methods and prototypes; SuusStudio does not sell services or accept paid bookings through this portfolio.
 
 **For recruiters and collaborators:** Explore demonstrated strengths in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md), [Engineering Proof Points](./PROOF_POINTS.md) and the [Capability Matrix](./CAPABILITIES.md). Test counts are internal evidence for specific versions, not blanket production or external-certification claims.
 
-**Next step:** [Explore SuusStudio™ and its contact route](https://suus-studio.vercel.app). Describe the problem, desired outcome and constraints. Scope and compensation are agreed before implementation work; private code and protected methods are not part of the public showcase.
+**Next step:** [Explore SuusStudio™'s eight worlds](https://suus-studio.vercel.app). The public site and this repository are for free creative exploration and technical documentation, not paid engagements, orders or subscriptions. Private code and protected methods are not included.
 
 This repository is a recruiter- and client-safe overview of **30+ documented systems, prototypes, frameworks and project tracks with distinct maturity levels**. Proprietary source code, credentials, private client data and protected internal logic remain private.
 
@@ -99,10 +99,10 @@ It explicitly models **operational team state, not real emotion**. The layer can
 
 This adds a missing coordination layer between multi-agent telemetry and governed human/AEGIS decision control without turning a recommendation into authority.
 
-### SEO V20 · Private commercial SEO engine
-**Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
+### SEO V20 · Archived private SEO product research
+**Status:** PRIVATE RESEARCH ASSET · NOT FOR SALE
 
-A SuusStudio™ SEO analysis system developed as a commercial product. Its implementation and customer-facing engine are intentionally not exposed through this public showcase.
+An internal SEO analysis prototype originally designed around a commercial product concept. Its implementation is private; it is not currently marketed, sold or available for customer payment.
 
 Public-safe capability summary:
 - website SEO analysis
@@ -112,7 +112,7 @@ Public-safe capability summary:
 - reporting-oriented output
 - production deployment experience
 
-Access is separated from Website Launch and is intended for authorized SEO customers only after payment and account activation.
+Historical payment/access-control concepts are not a current customer offer, activation route or purchase invitation.
 
 ### SuusStudio™ Portfolio & Framework
 **Status:** PUBLIC · LIVE  
@@ -273,7 +273,7 @@ The goal is not to make technology look impressive. The goal is to make it **use
 
 This repository is intentionally a capability showcase rather than a source-code dump. It demonstrates what I design, build, test and deploy while protecting private implementation details and intellectual property.
 
-Commercial engines, including SEO V20 and Website Launch builder technology, are not exposed as free public tools through this showcase.
+Legacy commercial prototypes, including SEO V20 and the Website Launch builder, remain private or inactive. The current SuusStudio public portfolio is non-commercial and accepts no payment.
 
 ---
 
