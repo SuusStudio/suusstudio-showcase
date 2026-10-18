@@ -68,7 +68,7 @@ One controlled internal motion dry run blocked an initial identity-quality failu
 A bilingual structured dataset for creative AI reasoning with **60 training examples**, **10 validation tests**, an evaluation scorecard, JSONL structure and duplicate/secret-key quality checks.
 
 ### SEO V20
-**Status:** PRIVATE SYSTEM · COMMERCIAL ACCESS ONLY
+**Status:** PRIVATE RESEARCH ASSET · NOT FOR SALE
 
 Internally developed SEO application with implemented capabilities including:
 - POST-based website scanning
@@ -79,7 +79,7 @@ Internally developed SEO application with implemented capabilities including:
 - PWA implementation work
 - production deployment experience
 
-The SEO engine is not offered as a free public tool. Customer access is intended to be isolated behind its own SEO payment, account and entitlement flow.
+The SEO engine is not a public tool or service. Its old payment/account entitlement designs are historical prototypes; no paid access is offered.
 
 ### SuusStudio™
 **Live:** https://suus-studio.vercel.app
@@ -94,7 +94,7 @@ SuusStudio™ work typically follows this sequence:
 
 The emphasis is on systems that can be repeated, inspected, governed and improved.
 
-## Commercial relevance
+## Research and technical applications
 
 These capabilities can be applied to:
 
@@ -119,6 +119,6 @@ These capabilities can be applied to:
 
 This matrix describes capability, not unrestricted access to proprietary implementation. Private source code, client data, identity source material, credentials, protected policy content and orchestration logic are not part of the public showcase.
 
-Commercial engines are separated from public portfolio content and require their own authorized customer access.
+Historical payment-oriented concepts remain inactive/private. This public portfolio documents research and creativity without selling services or charging visitors.
 
 **Updated:** 15 October 2026
