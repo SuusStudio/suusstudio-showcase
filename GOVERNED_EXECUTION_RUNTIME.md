@@ -23,13 +23,13 @@ The private research sequence progressed from V0.9 freshness and simulated provi
 
 Earlier internal decision-layer tests and governance work are documented separately in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md). An earlier decision-only release passing its defined checks does not make this newer draft a production executor.
 
-## Why a client would care
+## Why the research matters
 
 An AI workflow can be useful but still unsafe to deploy if it cannot distinguish permission, current evidence and an actual completed action. This project demonstrates how to design **visible stopping points, review authority and failure evidence** before expanding automation.
 
-**Potential paid feasibility pilot, not a production executor:** define one bounded approval-driven workflow, identify what must be reviewed by a human, test expected and prohibited behaviors in a simulation, and deliver a documented findings/acceptance report. Any live integration would require its own security, privacy, operational and independent approval gates.
+**Free research exercise, not a production executor:** define one bounded approval-driven workflow, identify what must be reviewed by a human, test expected and prohibited behaviors in a simulation, and document the findings and limits. Any live integration would require its own security, privacy, operational and independent approval gates.
 
-**Discuss a scoped engagement:** [SuusStudio™ contact route](https://suus-studio.vercel.app). The private V1.2 draft is not offered as a deployed service or independently certified control platform.
+**Explore the non-commercial portfolio:** [SuusStudio™ eight worlds](https://suus-studio.vercel.app). The private V1.2 draft is not offered as a deployed service or independently certified control platform.
 
 ## Protected material
 
