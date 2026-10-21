@@ -207,7 +207,7 @@ Internally verified proof points include:
 | **Multi-Sensor Incident Pipeline V5.0** | Defence innovation / sensor evidence / governance | VERIFIED PROTOTYPE · CONTROLLED-EVALUATION READY |
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **Team Emotion Machine V1.0** | Team-state intelligence / routing / governance | INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY |
-| **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
+| **SEO V20** | SEO / web application | ARCHIVED PRIVATE RESEARCH · NOT FOR SALE |
 | **SuusStudio™ Framework V1.1** | Creative methodology + governed Systems execution layer | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Darkweb Intelligence Layer V2.0** | AI governance / trust / evidence | PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE |
