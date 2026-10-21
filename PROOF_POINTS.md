@@ -1,5 +1,16 @@
 # SuusStudio™ Engineering Proof Points
 
+## Update · 21 October 2026
+
+The newest public-safe research snapshot is in [Build Status](./BUILD_STATUS_2026-10-21.md). Evidence maturity is project-specific:
+
+- **STEM:** very small local vision/speech demonstrations have succeeded; the later *derived* image-robustness study accepted **11/20** known transformed images correctly and withheld **30/30** unknown transformed images. The study is not independent generalisation evidence.
+- **STEM bounded autonomy:** scoped synthetic-workflow and safe-blocking behaviour has been exercised; this is **not AGI** and does not imply permission for external production actions.
+- **Cinematic intelligence research:** COMMAND 13 has technically tested renders but **human visual approval remains on HOLD**.
+- **AI Quality Lab / OfferGuard™ / Dreamlight data:** specific external or independent validation gates are still open. Do not interpret internal code tests as those missing proofs.
+
+**Disclosure control:** This public document excludes the implementation details and raw evidence required to reproduce confidential systems. Earlier existing proof records below remain distinct from these research candidates.
+
 ## Content Intelligence OS V0.2 · Frozen Campaign Intelligence Release
 
 **Release state:** FROZEN RELEASE PASS · PRIVATE IMPLEMENTATION
