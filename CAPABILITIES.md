@@ -31,6 +31,18 @@ A fast evaluation view for recruiters, clients, collaborators and technical revi
 | **GitHub / deployment workflows** | Versioned project work and GitHub → Vercel production deployment | SEO V20, SuusStudio™ website and system workflows |
 | **Technical experimentation** | Testing ideas, preserving failed experiments and using findings to improve later versions | Wallpaper Parallax MAX, Reality-Bend research |
 
+## Recent capability research · October 2026
+
+| Research capability | Public-safe evidence | Limit |
+| --- | --- | --- |
+| **Local visual and spoken-language AI** | Simple local semantic demos and further limited vision robustness experiments | Natural-scene reliability, unseen-distribution accuracy and independent review not proven |
+| **Bounded AI agents and task recovery** | Offline synthetic mission handling, local continuity and guarded results | Not an unrestricted autonomous or production agent |
+| **Cinematic 3D and creative AI** | Blender/ComfyUI pipeline experiments, cinematic web scenes, COMMAND 13 visual research | Technical renders and visual approval remain distinct |
+| **Evaluation and reliability** | Internal structured quality checks and research holdouts | AI Quality Lab integration and blinded external validation are still open |
+| **Identity-aware creation and virtual garments** | Rights-aware creative tooling and wardrobe design research | Real game-data selection and approvals require verification |
+
+The detailed [October build status](./BUILD_STATUS_2026-10-21.md) is a public research record, not a source release.
+
 ## Implementation proof
 
 ### October 2026 candidates (not production releases)
