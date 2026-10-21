@@ -12,11 +12,19 @@ I design **AI workflows, digital experiences and quality-control systems** that 
 
 **For recruiters and collaborators:** Explore demonstrated strengths in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md), [Engineering Proof Points](./PROOF_POINTS.md) and the [Capability Matrix](./CAPABILITIES.md). Test counts are internal evidence for specific versions, not blanket production or external-certification claims.
 
-**STEM Research Showcase:** [Explore the interactive STEM preview source](./stem/index.html) and [its research notes](./stem/README.md). Includes the original conceptual hero image, Vision, Hearing, Autonomy, AEGIS and an explicitly illustrative decision demo. **Research lab, not an AGI or production-release claim.**
+**New · 21 October 2026:** [Framework V1.1](./FRAMEWORK.md) · [Complete public-safe research/build status](./BUILD_STATUS_2026-10-21.md) · [STEM visual showcase](./stem/index.html) (original artwork and illustrative interaction). Projects have separate maturity and evidence limits. **Nothing here is an AGI or production-release claim.**
 
 **Next step:** [Explore SuusStudio™'s eight worlds](https://suus-studio.vercel.app). The public site and this repository are for free creative exploration and technical documentation, not paid engagements, orders or subscriptions. Private code and protected methods are not included.
 
 This repository is a recruiter- and client-safe overview of **30+ documented systems, prototypes, frameworks and project tracks with distinct maturity levels**. Proprietary source code, credentials, private client data and protected internal logic remain private.
+
+## ✨ October 2026 · What's been built
+
+This latest snapshot brings together STEM perception/autonomy research, independent evaluation work, Creative Intelligence, Creator Core, visual production with Blender/ComfyUI, cinematic 3D worlds and COMMAND 13, Dreamlight Wardrobe research, OfferGuard™, evidence-oriented agent engineering, provenance/identity tools and specialist automation.
+
+**Research maturity matters:** STEM's transformed-image challenge accepted 11/20 known cases correctly and withheld 30/30 unknown derived cases; it does not demonstrate general reliability. COMMAND 13 remains visually unapproved, Dreamlight game-data verification remains on HOLD, and full AI Quality Lab integration and independent STEM review remain open.
+
+See the [October project-by-project status and boundaries](./BUILD_STATUS_2026-10-21.md) and the [Framework V1.1 public methodology](./FRAMEWORK.md). Protected code, methods, evaluation rules and raw data are not published.
 
 ## ⚡ 30-second capability & proof scan
 
@@ -200,7 +208,7 @@ Internally verified proof points include:
 | **Creator Intelligence Network V2.0** | Multi-agent AI / governance / QA | VERIFIED PROTOTYPE · PRIVATE IMPLEMENTATION |
 | **Team Emotion Machine V1.0** | Team-state intelligence / routing / governance | INTERNAL SYSTEM LAYER · PUBLIC-SAFE SUMMARY |
 | **SEO V20** | SEO / web application | PRIVATE SYSTEM · COMMERCIAL ACCESS |
-| **SuusStudio™ Framework V1.0** | Creative methodology + governed Systems execution layer | PUBLIC |
+| **SuusStudio™ Framework V1.1** | Creative methodology + governed Systems execution layer | PUBLIC |
 | **Master Image Generator V1.0** | Creative operating system | PRIVATE SYSTEM |
 | **Darkweb Intelligence Layer V2.0** | AI governance / trust / evidence | PRIVATE SYSTEM · DEPLOYMENT-READY VALIDATED PROTOTYPE |
 | **Creator Core V1** | AI training data / evaluation | VERIFIED DATASET / EVALUATION ASSET |
