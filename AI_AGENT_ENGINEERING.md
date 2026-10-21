@@ -94,6 +94,12 @@ A role may be technically capable of proposing, researching, generating, validat
 
 Where human approval is required, approval is treated as evidence bound to the exact review context. It is not a magic override for upstream denials, missing permissions, failed QA or stale state.
 
+## New lab research boundary · 21 October 2026
+
+Related **STEM autonomy research** has explored local proposals, durable synthetic tasks, integrity checks and safe rejection of out-of-scope suggestions. That is a bounded private laboratory result, not a functioning public autonomous agent or artificial general intelligence. Perception/robotics research must not be treated as production-ready agent tooling.
+
+A public research timeline is available in [Research & Build Status](./BUILD_STATUS_2026-10-21.md). This document intentionally does not describe confidential architecture, internal model choices, evaluation gates, routing, policy implementation or protected source.
+
 ## Public-safe verified proof
 
 ### Decision Engine V0.7
