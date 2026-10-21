@@ -17,3 +17,7 @@ The hero artwork is fictional and contains illustrative UI. The public HTML/CSS/
 The live SuusStudio website is separate; GitHub source being public does not demonstrate a deployment.
 
 **Publication caution:** Git history and external caches may retain earlier versions of material even after edits.
+
+## October 2026 portfolio integration
+
+STEM is one research track within the [SuusStudio Framework V1.1](../FRAMEWORK.md). The [public-safe October build status](../BUILD_STATUS_2026-10-21.md) also covers the studio's broader creative, AI, cinematic 3D, visual QA and engineering projects. No internal algorithms, model configurations, research datasets, secret code or private operational processes are included.
