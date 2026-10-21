@@ -18,9 +18,17 @@ The catalogue intentionally describes **what was built, why it exists, and its m
 
 ---
 
+## What's new · 21 October 2026
+
+The studio's active work now spans **STEM local vision/hearing and bounded autonomy**, **AI quality evaluation**, **cinematic 3D / Blender-ComfyUI production**, **COMMAND 13 visual simulations**, **Dreamlight Wardrobe research**, and the existing creative, provenance and governance portfolio. These are not all production releases.
+
+For an up-to-date, explicitly scoped status of each stream, see [Research & Build Status · 21 October 2026](./BUILD_STATUS_2026-10-21.md). For the revised public methodology, see [Framework V1.1](./FRAMEWORK.md), and for the visual demonstration see [STEM](./stem/index.html).
+
+This catalogue never publishes internal code, model combinations, prompts, evaluation thresholds, raw research media, sensitive creative references or protected architecture.
+
 # Core creative systems
 
-## SuusStudio™ Framework V1.0
+## SuusStudio™ Framework V1.1
 **Status:** PUBLIC
 
 An internally developed creative methodology integrating **Storytelling × Marketing × Systems** into a repeatable workflow. The framework includes 37+ mastery modules, decision rules, quality gates, governance, versioning and a lifecycle from research through review.
