@@ -1,0 +1,8 @@
+STEM SHOWCASE PUBLIC QA (2026-10-21)
+Source: SuusStudio STEM Showcase Preview V0.1.
+Asset: assets/stem-concept-hero.jpg (original concept hero crop, not actual AI measurements).
+Modules: Vision, Hearing, Autonomy, AEGIS & Evidence, 12-capability roadmap.
+Static standalone HTML+CSS+JS; interactive example is explanatory only, not real model inference.
+Reported V1.4.3/V1.4.4 benchmarks are internal, scoped, and not proof of AGI or a production-ready autonomous agent.
+No private model weights, client files, credentials, personal media, raw study image datasets, or deployment keys included.
+Public GitHub source does not establish GitHub Pages/live website deployment. Independent AEGIS review and human release remain pending.

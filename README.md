@@ -12,6 +12,8 @@ I design **AI workflows, digital experiences and quality-control systems** that 
 
 **For recruiters and collaborators:** Explore demonstrated strengths in [AI Agent Engineering](./AI_AGENT_ENGINEERING.md), [Engineering Proof Points](./PROOF_POINTS.md) and the [Capability Matrix](./CAPABILITIES.md). Test counts are internal evidence for specific versions, not blanket production or external-certification claims.
 
+**STEM Research Showcase:** [Explore the interactive STEM preview source](./stem/index.html) and [its research notes](./stem/README.md). Includes the original conceptual hero image, Vision, Hearing, Autonomy, AEGIS and an explicitly illustrative decision demo. **Research lab, not an AGI or production-release claim.**
+
 **Next step:** [Explore SuusStudio™'s eight worlds](https://suus-studio.vercel.app). The public site and this repository are for free creative exploration and technical documentation, not paid engagements, orders or subscriptions. Private code and protected methods are not included.
 
 This repository is a recruiter- and client-safe overview of **30+ documented systems, prototypes, frameworks and project tracks with distinct maturity levels**. Proprietary source code, credentials, private client data and protected internal logic remain private.
